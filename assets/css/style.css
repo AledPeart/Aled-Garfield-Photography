@@ -43,17 +43,33 @@
 
 footer {
     min-height: 300px;
+    padding: 0;
+    margin: 0;
 }
 
-.footer-badges {
+.featured-badges {
     padding: 30px;
 }
 
 .sm-icon {
     color: #777;
     font-size: 2em;
+    padding: 5px;
 }
 
 .footer-badge-image {
     padding: 30px;
+}
+
+.back-to-top-footer-link {
+    text-decoration: none;
+    color: #777;
+}
+
+.social-media-badges {
+    padding-bottom: 40px;
+}
+
+.bottom-footer-container {
+    padding-bottom: 20px;
 }
