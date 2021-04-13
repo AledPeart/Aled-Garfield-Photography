@@ -1,3 +1,30 @@
-/* body {
-    margin: 0;
-} */
+/* --------------special margin, padding, text ---------------- */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/* --------------header ---------------- */
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+
+.navbar {
+    border-bottom: solid #777 1px;
+    padding-bottom: 0;
+    margin: 0 20px;
+}
+
+#brand-logo {
+    color: #777;
+}
