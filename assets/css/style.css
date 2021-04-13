@@ -28,3 +28,32 @@
 #brand-logo {
     color: #777;
 }
+
+
+/* --------------Body---------------- */
+
+.main-body-placeholder {
+    width: 90%;
+    height: 1500px;
+    background-color: lightgray;
+}
+
+
+/* --------------Footer---------------- */
+
+footer {
+    min-height: 300px;
+}
+
+.footer-badges {
+    padding: 30px;
+}
+
+.sm-icon {
+    color: #777;
+    font-size: 2em;
+}
+
+.footer-badge-image {
+    padding: 30px;
+}
