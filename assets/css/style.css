@@ -130,3 +130,8 @@ footer {
 .copyright {
     padding: 10px;
 }
+
+.pic-container img {
+    max-width: 800px;
+    max-height: 600px;
+}
