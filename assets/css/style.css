@@ -35,6 +35,11 @@
 
 
 /* --------------Home Page---------------- */
+
+
+
+/* --------------Intro Section---------------- */
+
 .headline-image {
     background-position: center;
     background-repeat: no-repeat;
@@ -94,7 +99,7 @@
 .portfolio-heading h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
 
 
@@ -114,6 +119,7 @@
     background-size: cover;
     max-width: 100%;
     padding: 50px;
+
 }
 
 
@@ -151,11 +157,41 @@
 
 /* --------------Home Page - Testemonial Section---------------- */
 
+.kind-words-h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 20px
+}
+
+.blockquote {
+    padding: 20px;
+}
+
+.blockquote p {
+    color: #777;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.blockquote-footer {
+    padding: 10px;
+    color: black
+}
+
+.middle-blockquote {
+    border-left: 1px solid #777;
+    border-right: 1px solid #777;
+
+}
+
+
 /* --------------Home Page - Get in Touch Section---------------- */
 
 /* --------------Footer---------------- */
 
-footer {
+.homepage-footer {
     min-height: 300px;
     padding: 0;
     margin: 0;
