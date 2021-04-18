@@ -34,7 +34,7 @@
 }
 
 
-/* --------------Body---------------- */
+/* --------------Home Page---------------- */
 .headline-image {
     background-position: center;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@
     padding: 20px;
 }
 
-.headline-text-wrapper {
+.grey-container {
     background-color: #ddd;
 }
 
@@ -85,6 +85,8 @@
     border-top: 2px solid #bbb;
 }
 
+/* --------------Home Page - Portfolio Section---------------- */
+
 .portfolio-heading {
     padding: 20px;
 }
@@ -103,6 +105,53 @@
     padding: 10px;
 }
 
+/* --------------Home Page - About Me Section---------------- */
+
+.hp-about-image {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    padding: 50px;
+}
+
+
+
+.hp-about-text {
+    max-width: 80%;
+    line-height: 2;
+    padding: 15px;
+}
+
+.hp-about-text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    font-weight: 200;
+}
+
+.hp-about-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+
+}
+
+.hp-about-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 2;
+
+}
+
+
+
+/* --------------Home Page - Testemonial Section---------------- */
+
+/* --------------Home Page - Get in Touch Section---------------- */
 
 /* --------------Footer---------------- */
 
