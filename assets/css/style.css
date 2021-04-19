@@ -1,4 +1,4 @@
-/* --------------special margin, padding, text, general---------------- */
+/* -----------special margin, padding, text, general/site-wide------------- */
 
 .uppercase {
     text-transform: uppercase;
@@ -15,6 +15,7 @@
     margin-bottom: 50px;
     border-top: 2px solid #bbb;
 }
+
 
 
 /* --------------header ---------------- */
@@ -211,13 +212,21 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     line-height: 2;
+    font-size: 20px;
 }
 
 .contact-me-text {
     padding: 50px;
 }
 
-
+/* --------------Contact Me Page---------------- */
+.contact-me-main-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+}
 
 /* --------------Footer---------------- */
 
@@ -229,6 +238,11 @@
 
 .featured-badges {
     padding: 30px;
+}
+
+/* following css to remove corners from this feaured badge */
+.lmd-badge {
+    border-radius: 50%;
 }
 
 .sm-icon {
