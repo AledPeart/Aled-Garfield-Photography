@@ -224,8 +224,32 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
     padding: 20px;
+    max-height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form-body {
+    padding-top: 15px;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.contact-form-h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.contact-form-p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 2;
+    font-size: 20px;
 }
 
 /* --------------Footer---------------- */
