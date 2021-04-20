@@ -292,6 +292,16 @@ textarea {
     margin-top: 50px;
 }
 
+.section-wrapper-my-style {
+    margin-bottom: 50px;
+
+}
+
+.my-style-row {
+    min-height: 350px;
+}
+
+
 .about-text-h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 80px;
@@ -304,6 +314,13 @@ textarea {
     font-weight: 400;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.about-text-p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 2;
+    font-size: 15px;
 }
 
 
