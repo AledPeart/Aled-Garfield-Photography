@@ -266,6 +266,54 @@ textarea {
     margin: 5px;
 }
 
+/* --------------Portfolio Page---------------- */
+
+.portfolio-gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.portfolio-gallery-col {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.portfolio-gallery-col img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* --------------About Page---------------- */
+
+.section-wrapper-about {
+    margin-top: 50px;
+}
+
+.about-text-h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    font-weight: 200;
+}
+
+.about-text-h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.img-my-family {
+    max-width: 90%;
+    padding: 30px;
+
+}
+
+
 /* --------------Footer---------------- */
 
 .homepage-footer {
