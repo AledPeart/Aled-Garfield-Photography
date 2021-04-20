@@ -268,33 +268,32 @@ textarea {
 
 /* --------------Portfolio Page---------------- */
 
-.portfolio-gallery-row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+#photo-gallery {
+    padding: 10px;
+    column-gap: 10px;
+    column-count: 3;
+    line-height: 10px;
 }
 
-.portfolio-gallery-col {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-.portfolio-gallery-col img {
-    margin-top: 8px;
-    vertical-align: middle;
+#photo-gallery img {
     width: 100%;
+    margin: 1px;
+}
+
+@media screen and (max-width: 768px) {
+    #photo-gallery {
+        column-count: 1;
+    }
+}
+
+.portfolio-contact-me {
+    margin-bottom: 15px;
 }
 
 /* --------------About Page---------------- */
 
 .section-wrapper-about {
     margin-top: 50px;
-}
-
-.section-wrapper-my-style {
-    margin-bottom: 50px;
-
 }
 
 .my-style-row {
