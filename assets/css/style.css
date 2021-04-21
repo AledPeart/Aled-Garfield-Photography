@@ -9,13 +9,17 @@
     margin: 20px 5px;
 }
 
-.home-page-hr {
+/* .home-page-hr {
     width: 80%;
     margin-top: 50px;
     margin-bottom: 50px;
-    border-top: 2px solid #bbb;
-}
+    border-top: 2px solid white;
+} */
 
+.section-margin {
+    margin-top: 50px;
+
+}
 
 
 /* --------------header ---------------- */
@@ -46,6 +50,9 @@
     color: #777;
 }
 
+#brand-logo:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
 
 /* --------------Home Page---------------- */
 
@@ -69,13 +76,14 @@
     background-color: #ddd;
 }
 
-.intro-headline {
-    padding: ;
+.intro-headline-row {
+    min-height: 400px;
 }
+
 
 .intro-headline h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 400;
 }
 
@@ -94,7 +102,12 @@
     line-height: 1.7;
 }
 
-
+/* following media query to prevent the text from becoming too stretched out on larger screens */
+@media screen and (min-width: 992px) {
+    .intro-paragraph p {
+        max-width: 80%;
+    }
+}
 
 .intro-paragraph span {
     font-size: 30px;
@@ -172,6 +185,10 @@
 
 /* --------------Home Page - Testemonial Section---------------- */
 
+.hp-testemonial {
+    margin-bottom: 50px;
+}
+
 .kind-words-h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -203,6 +220,10 @@
 
 
 /* --------------Home Page - Get in Touch Section---------------- */
+
+.hp-contact-me {
+    margin-bottom: 20px;
+}
 
 .contact-me-text h2 {
     font-family: 'Roboto', sans-serif;
@@ -280,6 +301,8 @@ textarea {
     margin: 1px;
 }
 
+/* following media query to ensure gallery columns reduce correctly (to one) on smaller devices */
+
 @media screen and (max-width: 768px) {
     #photo-gallery {
         column-count: 1;
@@ -332,6 +355,20 @@ textarea {
 
 /* --------------Footer---------------- */
 
+/* following media query to stop the copyright text sitting to close to the bottom and left margins on viewports >768px */
+
+@media screen and (min-width: 768px) {
+    .copyright-footer-text {
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+}
+
+.copyright-footer-text {
+    padding-bottom: 25px;
+}
+
+
 .homepage-footer {
     min-height: 300px;
     padding: 0;
@@ -340,6 +377,10 @@ textarea {
 
 .featured-badges {
     padding: 30px;
+}
+
+.footer-badge-image:hover {
+    opacity: 75%;
 }
 
 /* following css to remove corners from this feaured badge */
@@ -353,6 +394,10 @@ textarea {
     padding: 5px;
 }
 
+.sm-icon:hover {
+    color: #000;
+}
+
 .footer-badge-image {
     padding: 30px;
 }
@@ -362,15 +407,17 @@ textarea {
     color: #777;
 }
 
+.back-to-top-footer-link:hover {
+    color: #000;
+}
+
 .social-media-badges {
     padding-bottom: 40px;
 }
 
 .bottom-footer-container {
     padding-bottom: 20px;
-
 }
-
 
 .back-to-top {
     padding: 10px;
