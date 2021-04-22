@@ -1,5 +1,6 @@
 /* -----------special margin, padding, text, general/site-wide------------- */
 
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -261,8 +262,15 @@
 
 .contact-form-body {
     padding-top: 15px;
-    max-width: 50%;
+    max-width: 100%;
     margin: 0 auto;
+}
+
+/* following media query to reduce the size of the form on larger screens */
+@media screen and (min-width: 992px) {
+    .contact-form-body {
+        max-width: 50%;
+    }
 }
 
 .contact-form-h2 {
@@ -278,7 +286,14 @@
     font-weight: 300;
     line-height: 2;
     font-size: 20px;
-    margin: 0 25%;
+    margin: 0 15px;
+}
+
+/* following media query to center the text on larger screens */
+@media screen and (min-width: 992px) {
+    .contact-form-p {
+        margin: 0 25%;
+    }
 }
 
 .contact-form {
@@ -329,7 +344,7 @@ textarea {
 
 .about-text-h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 200;
 }
 
