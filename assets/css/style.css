@@ -83,6 +83,20 @@
     min-height: 400px;
 }
 
+.intro-headline {
+    padding-left: 25px;
+}
+
+/* following media query to prevent the text from becoming too stretched out on larger screens */
+@media screen and (min-width: 992px) {
+    .intro-headline {
+        padding-left: 100px;
+    }
+}
+
+*/ .intro-headline {
+    padding-left: 25px;
+}
 
 .intro-headline h1 {
     font-family: 'Roboto', sans-serif;
