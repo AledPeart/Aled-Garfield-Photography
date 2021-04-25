@@ -361,7 +361,7 @@ textarea {
 }
 
 .my-style-row {
-    min-height: 350px;
+    min-height: 250px;
 }
 
 
@@ -393,6 +393,9 @@ textarea {
 
 }
 
+.contact-me-button {
+    padding-bottom: 30px;
+}
 
 /* --------------Footer---------------- */
 
