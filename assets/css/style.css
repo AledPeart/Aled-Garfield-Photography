@@ -281,11 +281,20 @@
 }
 
 /* following media query to reduce the size of the form on larger screens */
+
+@media screen and (min-width: 768px) {
+    .contact-form-body {
+        max-width: 75%;
+    }
+}
+
 @media screen and (min-width: 992px) {
     .contact-form-body {
         max-width: 50%;
     }
 }
+
+
 
 .contact-form-h2 {
     font-family: 'Roboto', sans-serif;
