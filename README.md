@@ -1,4 +1,4 @@
-![AGP Landing Page](assets/images/agp-landing-page.jpg)
+![AGP Landing Page](https://aledpeart.github.io/MS1-Aled-Garfield-Photography/assets/images/agp-landing-page.jpg)
 
 [View deployed site here](https://aledpeart.github.io/MS1-Aled-Garfield-Photography/index.html)
 
