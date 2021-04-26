@@ -1,4 +1,6 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![AGP Landing Page](/workspace/MS1-Aled-Garfield-Photography/assets/images/agp-landing-page.jpg)
+
+[View deployed site here](https://aledpeart.github.io/MS1-Aled-Garfield-Photography/index.html)
 
 # Aled Garfield Photography
 
