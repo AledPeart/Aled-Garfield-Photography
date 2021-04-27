@@ -459,7 +459,7 @@ Errors and Warnings that were highlited to me that I addressed during the projec
 
 At the time of submission the results are showing no errors (see screenshots below)
 
-[index.html](../assets/images/w3-validation-check-index.png)  
+[index.html](MS1-Aled-Garfield-Photography/assets/images/w3-validation-check-index.png)  
 [portfolio.html](../assets/images/w3-validation-check-portfolio.png)  
 [about.html](../assets/images/w3-validation-check-about.png)  
 [contact.html](../assets/images/w3-validation-check-contact.png)  
