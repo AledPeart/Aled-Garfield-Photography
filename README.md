@@ -58,9 +58,21 @@ Here I will address to aims and goals of the website from both the perspectives 
 
 ### User Stories
 
-As a potential customer visiting the website I want to see examples of the photographers best work so that I can decide if I would like to hire them to photograph my wedding. End user goal: Decide if the photographer’s portfolio meets my own expectations. End business goal: Showcase the best work to potential customers ultimately increasing sales through increased customer contacts. Measurement of success: Increased percentage of visitors to the site making direct contact.
+* As a potential customer visiting the website I want a pleasant user experience and be able to navigate around the site easily. End user goal: Receive a positive user experience and easily navigate the site to receive the information I need. End business goal: Guide the user gently through the site, leading them towards making contact. Measurement of success: Increased percentage of visitors to the site making direct contact.
 
-As a potential customer visiting the website I want to see information on pricing to see if the packages on offer are within my budget. End user goal: Decide if the photographer’s packages fall within my available budget. End business goal: Ensure that customers who make contact have an appropriate budget for the photography packages on offer. Measurement of success: Increased conversion from contacts made to bookings secured.
+* As a potential customer visiting the website I want to see the information presented in a clear concise and logical way. End user goal: Receive the information I need quickly and easily. End business goal: Present information to potential customers clearly and concisely. Measurement of success: Increased percentage of visitors to the site making contact.
+
+* As a potential customer visiting the website I want to hear about other people’s experiences of working with the photographer. End user goal: Learn about other people’s experiences of working with the photographer. End business goal: Highlight to potential customer’s the positive experiences of previous customer’s. Measurement of success: Re-assure customers of the quality of service offered encouraging them to make direct contact.
+
+* As a potential customer visiting the website I want to see examples of the photographers best work so that I can decide if I would like to hire them to photograph my wedding. End user goal: Decide if the photographer’s portfolio meets my own expectations. End business goal: Showcase the best work to potential customers ultimately increasing sales through increased customer contacts. Measurement of success: Increased percentage of visitors to the site making direct contact.
+
+* As a potential customer visiting the website I want to learn more about the style of photography offered. End user goal: Decide if the photographer’s style is a good fit for me. End business goal: Ensure that customers who make contact are aware of the style of photography on offer. Measurement of success: Increased conversion from contacts made to bookings secured.
+
+* As a potential customer visiting the website I want to learn more about the photographer. End user goal: Decide if the photographer’s vision and personality align with my own. End business goal: Ensure that customers who make contact are a good fit to work with the photographer. Measurement of success: Increased customer satisfaction and increased repeat and recommendation business.
+
+* As a potential customer visiting the website I want to be able to easily view the photographers social media channels. End user goal: Learn more about the photographer and their work, access wedding photography related inspiration and content. End business goal: Increase social media following and exposure. Measurement of success: Increased levels of social media engagement.
+
+* As a potential customer visiting the website I want to be able to easily contact the photographer. End user goal: send the photographer a direct message through the website. End business goal: Ensure that customers are able to make contact directly with the photographer. Measurement of success: Increased enquiries leading to an increase in bookings secured.
 
 ### Design Objectives
 
@@ -95,7 +107,7 @@ As a potential customer visiting the website I want to see information on pricin
 
 *	Design adheres to current norms and conventions e.g navbar/footer at the top/bottom of each page, clear navigation labels.
 
-### Layout/Structure/Features
+## Layout/Structure/Features
 
 All pages will have the same basic structure, namely a navigation bar at the top of each page, and a footer area at the bottom of each page. 
 
@@ -111,19 +123,20 @@ The other pages, linked from the navigation bar and from the main page where app
 
 * About Me – A page containing some images and bio of the photographer and some more detail on the photographic style offered.
 
-* Price/Packages – A page with a description of the different photography packages available and how much they cost, as well as some details and images of the additional products available such as wedding albums.
-
 * Gallery/Portfolio – a page with a series of images laid out in a tiled gallery to showcase the photographers work.
 
 * Contact Page – a contact form where users can get in touch to enquire about availability
 
-* Downloadable wedding contract **(_TBC - may become a feature to be added later_)**
 
 
 
 
 
-#### Wireframes **(_links to be added)**
+
+## Wireframes 
+[Detailed mock-ups](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/tree/master/Wireframes/Wireframe%20-%20Detailed)
+
+[Initial sketches](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/tree/master/Wireframes/Wireframe%20-%20Initial%20Sketches)
 
 ## Features Left to implement
 
@@ -131,27 +144,62 @@ The other pages, linked from the navigation bar and from the main page where app
 
 * A more detailed ‘portfolio’ section, with individual pages for weddings and portraits.
 
+* Price/Packages – A page with a description of the different photography packages available and how much they cost, as well as some details and images of the additional products available such as wedding albums.
+
+* Downloadable wedding contract 
+
 ## Technologies Used
 
 * HTML 5 – page content and structure
 * CSS3 – Styling
 * Bootstrap v4.3.1 – Navigation bar, page layout and responsive design.
-* Google chrome Dev Tools – for debugging
-* Google Lighthouse for Audits
+* Google ChromeDev Tools – for site testing and debugging
+* Google Lighthouse for site testing
 * Google Fonts – Typography
 * Font Awesome – Icons
 
 
-## Testing
-I have tested my site a
 
-## Planning/Implementation/Results
+## Testing
+You can view my seperate TESTING.md file [here] ()
+
+
 
 ## Deployment
+This project was developed using [Gitpod](https://www.gitpod.io/) and was committed and pushed to Github using the following terminal commands within Gitpod:
+
+- _git add_ 
+- _git commit –m “commit message”_
+- _git push_
+
+#### In order to deploy the project to GitHub Pages the following steps were followed:
+
+1. Select the __MS1-Aled-Garfield-Photography__ repository from within Github.
+2. Select the _settings_ tab.
+3. Select the _pages_ tab from the options on the left of the screen.
+4. Using the dropdown menu change the source from _none_ to _master_ branch.
+5. Click _save_.
+6. You will now see a message that your site is ready to be published.
+7. If you wait a few moments and refresh the browser another message will confirm that your site is published at the provided address
+
+In order to clone and run this project locally, you will need to follow these steps:
+
+1. On the main repository page in __Github__, click the button to download the _Code_ (located at the top above the list of files)
+2. Under the _HTTPS_ tab copy the URL for the repository
+3. Open the Terminal in your preferred __IDE__.
+4. Change the current working directory to the location that you would like the new cloned directory.
+5. Type _git clone_ into the terminal and then paste the URL that you copied earlier.
+6. Hit _enter_ to create your clone.
+
+Full details of these summarised steps can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+ 
+
 
 ## Bugs
 
 ## Credits
 
 ## Content/Media/Acknowledgements
+
+All images provided by Aled Garfield Photography
 
