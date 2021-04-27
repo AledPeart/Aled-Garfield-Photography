@@ -123,27 +123,30 @@ The other pages, linked from the navigation bar and from the main page where app
 
 * About Me – A page containing some images and bio of the photographer and some more detail on the photographic style offered.
 
-* Price/Packages – A page with a description of the different photography packages available and how much they cost, as well as some details and images of the additional products available such as wedding albums.
-
 * Gallery/Portfolio – a page with a series of images laid out in a tiled gallery to showcase the photographers work.
 
 * Contact Page – a contact form where users can get in touch to enquire about availability
 
-* Downloadable wedding contract **(_TBC - may become a feature to be added later_)**
+
 
 
 
 
 
 ## Wireframes 
-[Detailed mock-ups] (Wireframes/Wireframe - Detailed)
-[Initial sketches] (Wireframes/Wireframe - Initial Sketches)
+[Detailed mock-ups](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/tree/master/Wireframes/Wireframe%20-%20Detailed)
+
+[Initial sketches](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/tree/master/Wireframes/Wireframe%20-%20Initial%20Sketches)
 
 ## Features Left to implement
 
 * A ‘blog’ section, which will display posts with a series of images from individual weddings/portrait sessions.
 
 * A more detailed ‘portfolio’ section, with individual pages for weddings and portraits.
+
+* Price/Packages – A page with a description of the different photography packages available and how much they cost, as well as some details and images of the additional products available such as wedding albums.
+
+* Downloadable wedding contract 
 
 ## Technologies Used
 
@@ -169,7 +172,7 @@ This project was developed using [Gitpod](https://www.gitpod.io/) and was commit
 - _git commit –m “commit message”_
 - _git push_
 
-####In order to deploy the project to GitHub Pages the following steps were followed:
+#### In order to deploy the project to GitHub Pages the following steps were followed:
 
 1. Select the __MS1-Aled-Garfield-Photography__ repository from within Github.
 2. Select the _settings_ tab.
@@ -188,7 +191,7 @@ In order to clone and run this project locally, you will need to follow these st
 5. Type _git clone_ into the terminal and then paste the URL that you copied earlier.
 6. Hit _enter_ to create your clone.
 
-Full details of these summarised steps can be found [here] (https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+Full details of these summarised steps can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
  
 
 
