@@ -1,6 +1,5 @@
 /* -----------special margin, padding, text, general/site-wide------------- */
 
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -9,13 +8,6 @@
     padding: 10px;
     margin: 20px 5px;
 }
-
-/* .home-page-hr {
-    width: 80%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-top: 2px solid white;
-} */
 
 .section-margin {
     margin-top: 50px;
@@ -60,7 +52,6 @@
 /* --------------Home Page---------------- */
 
 
-
 /* --------------Intro Section---------------- */
 
 .headline-image {
@@ -94,7 +85,7 @@
     }
 }
 
-*/ .intro-headline {
+.intro-headline {
     padding-left: 25px;
 }
 
@@ -131,7 +122,6 @@
     font-size: 30px;
 }
 
-
 /* --------------Home Page - Portfolio Section---------------- */
 
 .portfolio-heading {
@@ -147,8 +137,6 @@
     font-weight: 300;
     font-size: 40px;
     text-transform: uppercase;
-
-
 }
 
 .portfolio-image {
@@ -167,8 +155,6 @@
     padding: 50px;
 
 }
-
-
 
 .hp-about-text {
     max-width: 80%;
@@ -189,17 +175,13 @@
     padding-top: 10px;
     padding-bottom: 20px;
     text-transform: uppercase;
-
 }
 
 .hp-about-text p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     line-height: 2;
-
 }
-
-
 
 /* --------------Home Page - Testemonial Section---------------- */
 
@@ -233,9 +215,7 @@
 .middle-blockquote {
     border-left: 1px solid #777;
     border-right: 1px solid #777;
-
 }
-
 
 /* --------------Home Page - Get in Touch Section---------------- */
 
@@ -263,6 +243,7 @@
 }
 
 /* --------------Contact Me Page---------------- */
+
 .contact-me-main-img {
     background-position: center;
     background-repeat: no-repeat;
@@ -294,8 +275,6 @@
     }
 }
 
-
-
 .contact-form-h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
@@ -313,6 +292,7 @@
 }
 
 /* following media query to center the text on larger screens */
+
 @media screen and (min-width: 992px) {
     .contact-form-p {
         margin: 0 25%;
@@ -386,7 +366,6 @@ textarea {
     font-size: 15px;
 }
 
-
 .img-my-family {
     max-width: 90%;
     padding: 30px;
@@ -428,6 +407,7 @@ textarea {
 }
 
 /* following css to remove corners from this feaured badge */
+
 .lmd-badge {
     border-radius: 50%;
 }
