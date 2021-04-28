@@ -13,8 +13,24 @@
     margin-top: 50px;
 }
 
-.container-fluid {
+/* .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+/* body {
+    overflow-x: hidden;
+} */
+
+/* .container-fluid {
     padding: 0;
+} */
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* --------------header ---------------- */
