@@ -450,3 +450,18 @@ __Safari__ – Unable to test, no access to an IOS mobile device, and current co
 
 ## HTML and CSS Validation
 
+While developing I have regularly validated ny HTML and CSS using [W3C Markup](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/).  
+Errors and Warnings that were highlited to me that I addressed during the project were:
+* Image filenames containing capitals
+* Missing closing </div> tags
+* __section__ tags that did not have an __h1__ or an __h2__ as a direct child
+* Missing __:__ and __}__ in my css file
+
+At the time of submission the results are showing no errors (see screenshots below)
+
+[index.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-check-index.png)  
+[portfolio.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-check-portfolio.png)  
+[about.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-check-about.png)  
+[contact.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-check-contact.png)  
+[style.css](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-check-css.png)
+
