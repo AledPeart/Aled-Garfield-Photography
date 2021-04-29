@@ -156,6 +156,10 @@
     text-transform: uppercase;
 }
 
+.portfolio-image-div {
+    align-items: flex-start;
+}
+
 .portfolio-image {
     max-width: 100%;
     padding: 10px;
