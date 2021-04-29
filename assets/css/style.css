@@ -15,12 +15,21 @@
 }
 
 /* Credit - styling for these hr's borrowed from https://www.appbrewery.co/ */
-#hr-general {
+/* #hr-general {
     color: #777;
     border: none;
     border-top: 10px dotted;
     width: 3rem;
     margin: 25px auto;
+} */
+
+#hr-general {
+    color: #777;
+    border: none;
+    border-top: 1px solid;
+    width: 80%;
+    margin: 25px auto;
+
 }
 
 /* --------------header ---------------- */
