@@ -9,30 +9,12 @@
     margin: 20px 5px;
 }
 
-.section-margin {
-    margin-top: 50px;
-}
-
-/* .container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-} */
-
-/* body {
-    overflow-x: hidden;
-} */
-
-/* .container-fluid {
-    padding: 0;
-} */
-
 .row {
     margin-left: 0;
     margin-right: 0;
 }
 
+/* Credit - styling for these hr's borrowed from https://www.appbrewery.co/ */
 #hr-general {
     color: #777;
     border: none;
@@ -91,7 +73,7 @@
 }
 
 .grey-container {
-    background-color: #ddd;
+    background-color: #f1f1f1;
 }
 
 .intro-headline-row {
@@ -154,6 +136,10 @@
 }
 
 /* --------------Home Page - Portfolio Section---------------- */
+
+.home-page-portfolio {
+    margin-top: 50px;
+}
 
 .portfolio-heading {
     padding: 20px;
@@ -218,7 +204,7 @@
 /* --------------Home Page - Testemonial Section---------------- */
 
 .hp-testemonial {
-    margin-bottom: 50px;
+    margin-bottom: 25px 0px;
 }
 
 .kind-words-h2 {
@@ -271,7 +257,11 @@
 }
 
 .contact-me-text {
-    padding: 50px;
+    padding: 15px 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+
 }
 
 /* --------------Contact Me Page---------------- */
@@ -425,10 +415,9 @@ textarea {
 
 
 .homepage-footer {
-    min-height: 300px;
+    min-height: 200px;
     padding: 0;
     margin: 0;
-    border-top: 2px solid #ddd;
     background-color: #f1f1f1;
 }
 
@@ -461,12 +450,12 @@ textarea {
 }
 
 .back-to-top-footer-link {
-    text-decoration: none;
-    color: #777;
+    color: #212529;
 }
 
 .back-to-top-footer-link:hover {
     color: #000;
+    text-decoration: none;
 }
 
 .social-media-badges {
