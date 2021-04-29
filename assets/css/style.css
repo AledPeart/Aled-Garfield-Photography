@@ -116,7 +116,8 @@
 }
 
 .intro-paragraph {
-    padding: 25px 5px;
+    padding: 25px;
+    font-size: 1 rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     line-height: 1.7;
@@ -199,7 +200,8 @@
 }
 
 .hp-about-paragraph {
-    padding: 25px 5px;
+    padding: 25px;
+    font-size: 1 rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     line-height: 1.7;
@@ -226,6 +228,7 @@
 .blockquote p {
     color: #777;
     font-family: 'Roboto', sans-serif;
+    font-size: 1 rem;
     font-weight: 300;
 }
 
@@ -255,17 +258,23 @@
 
 .contact-me-text p {
     font-family: 'Roboto', sans-serif;
+    font-size: 1 rem;
     font-weight: 300;
-    line-height: 2;
-    font-size: 20px;
+    line-height: 1.7;
+    margin: 0 auto;
+
 }
 
 .contact-me-text {
     padding: 15px 25px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    line-height: 1.7;
+}
 
+/* following media query to prevent the text from becoming too stretched out on larger screens */
+@media screen and (min-width: 992px) {
+    .contact-me-text p {
+        max-width: 50%;
+    }
 }
 
 /* --------------Contact Me Page---------------- */
@@ -413,20 +422,32 @@ textarea {
     }
 }
 
+.as-featured-text {
+    padding-top: 25px;
+}
+
+.as-featured-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+
+}
+
 .copyright-footer-text {
-    padding-bottom: 25px;
+    padding-bottom: 5px;
 }
 
 
 .homepage-footer {
-    min-height: 200px;
+    min-height: fit-content;
     padding: 0;
     margin: 0;
-    background-color: #f1f1f1;
 }
 
 .featured-badges {
-    padding: 30px;
+    padding: 0 30px 30px;
 }
 
 .footer-badge-image:hover {
@@ -463,7 +484,7 @@ textarea {
 }
 
 .social-media-badges {
-    padding-bottom: 40px;
+    padding: 25px 0;
 }
 
 .bottom-footer-container {
