@@ -170,7 +170,7 @@ You can view my seperate TESTING.md file [here](https://github.com/AledPeart/MS1
 
 
 ## Deployment
-This project was developed using [Gitpod](https://www.gitpod.io/) and was committed and pushed to Github using the following terminal commands within Gitpod:
+This project was developed using [Gitpod](https://www.gitpod.io/) and was committed and pushed to [Github](https://github.com/) using the following terminal commands within Gitpod:
 
 - _git add_ 
 - _git commit –m “commit message”_
@@ -203,19 +203,24 @@ Full details of these summarised steps can be found [here](https://docs.github.c
 
 ## Credits
 
-* This project was created from a Code Institute student template
-* All images supplied by and copytight of Aled Garfield Photography Ltd
-* Code borrowed from the [App Brewery] (https://www.appbrewery.co) used to style the horizontal rules.
-* [Bootstrap] (https://getbootstrap.com/) Components used for the navigation bar, form, and the Bootstrap Grid system used to streamline layouts and responsive design.
-* Ideas and knowledge gleamed from * [W3 Schools] (https://www.w3schools.com/)
-                                   * [CSS-Tricks] (https://css-tricks.com/)
-                                   * [Bootstrap] (https://getbootstrap.com/)
+* This project was created from a [Code Institute](https://codeinstitute.net/) student template
+
+* Code borrowed from the [App Brewery](https://www.appbrewery.co) used to style the horizontal rules.
+* [Bootstrap](https://getbootstrap.com/) Components used for the navigation bar, form, and the Bootstrap Grid system used to streamline layouts and responsive design.
+* Ideas and knowledge gleamed from * [W3 Schools](https://www.w3schools.com/)
+                                   * [CSS-Tricks](https://css-tricks.com/)
+                                   * [Bootstrap](https://getbootstrap.com/)
                                    * Duckett, J. 2011. HTML and CSS: Design and Build Websites. John Wiley & Sons Inc.
-* Font [Google Fonts] (https://fonts.google.com/)
-* Icons [Font Aesome] (https://fontawesome.com/)
-* As Featured Badges courtesy of [Love My Dress] (https://www.lovemydress.net/) [Whimsical Wonderland Weddings] (https://whimsicalwonderlandweddings.com/) [Rock My Wedding] (https://www.rockmywedding.co.uk/) [Cwtch the Bride] (https://www.facebook.com/cwtchthebride/)
+* Fonts [Google Fonts](https://fonts.google.com/)
+* Icons [Font Aesome](https://fontawesome.com/)
 
 ## Content/Media/Acknowledgements
 
-All images provided by Aled Garfield Photography
+* All images supplied by and copyright of Aled Garfield Photography Ltd
+* As Featured Badges courtesy of 
+  * [Love My Dress](https://www.lovemydress.net/) 
+  * [Whimsical Wonderland Weddings](https://whimsicalwonderlandweddings.com/) 
+  * [Rock My Wedding](https://www.rockmywedding.co.uk/) 
+  * [Cwtch the Bride](https://www.facebook.com/cwtchthebride/)
+
 
