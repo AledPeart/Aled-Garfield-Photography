@@ -165,7 +165,7 @@ The other pages, linked from the navigation bar and from the main page where app
 
 
 ## Testing
-You can view my seperate TESTING.md file [here] (https://github.com/AledPeart/MS1-Aled-Garfield-Photography/TESTING.md)
+You can view my seperate TESTING.md file [here](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/TESTING.md)
 
 
 
