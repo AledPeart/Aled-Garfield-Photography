@@ -160,7 +160,7 @@ The other pages, linked from the navigation bar and from the main page where app
 * [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) – for site testing and debugging
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) for site testing
 * [Google Fonts](https://fonts.google.com/) – Typography
-* [Font Aesome](https://fontawesome.com/) – Icons
+* [Font Awesome](https://fontawesome.com/) – Icons
 * [Photoshop](https://www.photoshop.com/en) - Image re-sizing
 
 
