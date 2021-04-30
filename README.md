@@ -153,15 +153,19 @@ The other pages, linked from the navigation bar and from the main page where app
 * HTML 5 – page content and structure
 * CSS3 – Styling
 * Bootstrap v4.3.1 – Navigation bar, page layout and responsive design.
+* Git - Version control tracking
+* GitHub - Project hosting
+* Balsamiq - Wireframes
 * Google ChromeDev Tools – for site testing and debugging
 * Google Lighthouse for site testing
 * Google Fonts – Typography
 * Font Awesome – Icons
+* Photoshop - Image re-sizing
 
 
 
 ## Testing
-You can view my seperate TESTING.md file [here] ()
+You can view my seperate TESTING.md file [here] (https://github.com/AledPeart/MS1-Aled-Garfield-Photography/TESTING.md)
 
 
 
@@ -198,6 +202,18 @@ Full details of these summarised steps can be found [here](https://docs.github.c
 ## Bugs
 
 ## Credits
+
+* This project was created from a Code Institute student template
+* All images supplied by and copytight of Aled Garfield Photography Ltd
+* Code borrowed from the [App Brewery] (https://www.appbrewery.co) used to style the horizontal rules.
+* [Bootstrap] (https://getbootstrap.com/) Components used for the navigation bar, form, and the Bootstrap Grid system used to streamline layouts and responsive design.
+* Ideas and knowledge gleamed from * [W3 Schools] (https://www.w3schools.com/)
+                                   * [CSS-Tricks] (https://css-tricks.com/)
+                                   * [Bootstrap] (https://getbootstrap.com/)
+                                   * Duckett, J. 2011. HTML and CSS: Design and Build Websites. John Wiley & Sons Inc.
+* Font [Google Fonts] (https://fonts.google.com/)
+* Icons [Font Aesome] (https://fontawesome.com/)
+* As Featured Badges courtesy of [Love My Dress] (https://www.lovemydress.net/) [Whimsical Wonderland Weddings] (https://whimsicalwonderlandweddings.com/) [Rock My Wedding] (https://www.rockmywedding.co.uk/) [Cwtch the Bride] (https://www.facebook.com/cwtchthebride/)
 
 ## Content/Media/Acknowledgements
 
