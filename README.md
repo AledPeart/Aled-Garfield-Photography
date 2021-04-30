@@ -14,7 +14,7 @@ As the sole photographer and therefore the ‘face’ of the business, the amoun
 
 ## User Expreience
 
-Here I will address to aims and goals of the website from both the perspectives of the users and of the business owner. I will also 
+Here I will address the aims and goals of the website from both the perspectives of the users and of the business owner. I will also 
 
 ### User objectives
 
