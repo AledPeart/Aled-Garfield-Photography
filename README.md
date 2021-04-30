@@ -1,4 +1,4 @@
-![AGP Landing Page](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/Mockup.png)
+![AGP Landing Page-mockup](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/Mockup.png)
 
 [View deployed site here](https://aledpeart.github.io/MS1-Aled-Garfield-Photography/index.html)
 
@@ -152,15 +152,16 @@ The other pages, linked from the navigation bar and from the main page where app
 
 * HTML 5 – page content and structure
 * CSS3 – Styling
-* Bootstrap v4.3.1 – Navigation bar, page layout and responsive design.
-* Git - Version control tracking
-* GitHub - Project hosting
-* Balsamiq - Wireframes
-* Google ChromeDev Tools – for site testing and debugging
-* Google Lighthouse for site testing
-* Google Fonts – Typography
-* Font Awesome – Icons
-* Photoshop - Image re-sizing
+* [Bootstrap](https://getbootstrap.com/) (v4.3.1) – Navigation bar, page layout and responsive design.
+* [Git](https://git-scm.com/) - Version control tracking
+* [Github](https://github.com/) - Project hosting
+* [Gitpod](https://www.gitpod.io/) - Development
+* [Balsamiq](https://balsamiq.com/) - Wireframes
+* [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) – for site testing and debugging
+* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) for site testing
+* [Google Fonts](https://fonts.google.com/) – Typography
+* [Font Aesome](https://fontawesome.com/) – Icons
+* [Photoshop](https://www.photoshop.com/en) - Image re-sizing
 
 
 
