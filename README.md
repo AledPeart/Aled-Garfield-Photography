@@ -165,7 +165,7 @@ The other pages, linked from the navigation bar and from the main page where app
 
 
 ## Testing
-You can view my seperate TESTING.md file [here](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/TESTING.md)
+You can view my seperate TESTING.md file [here](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/TESTING.md)
 
 
 
@@ -207,10 +207,11 @@ Full details of these summarised steps can be found [here](https://docs.github.c
 
 * Code borrowed from the [App Brewery](https://www.appbrewery.co) used to style the horizontal rules.
 * [Bootstrap](https://getbootstrap.com/) Components used for the navigation bar, form, and the Bootstrap Grid system used to streamline layouts and responsive design.
-* Ideas and knowledge gleamed from * [W3 Schools](https://www.w3schools.com/)
-                                   * [CSS-Tricks](https://css-tricks.com/)
-                                   * [Bootstrap](https://getbootstrap.com/)
-                                   * Duckett, J. 2011. HTML and CSS: Design and Build Websites. John Wiley & Sons Inc.
+* Ideas and knowledge gleamed from 
+  * [W3 Schools](https://www.w3schools.com/)
+  * [CSS-Tricks](https://css-tricks.com/)
+  * [Bootstrap](https://getbootstrap.com/)
+  * Duckett, J. 2011. HTML and CSS: Design and Build Websites. John Wiley & Sons Inc.
 * Fonts [Google Fonts](https://fonts.google.com/)
 * Icons [Font Aesome](https://fontawesome.com/)
 
