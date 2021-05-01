@@ -112,6 +112,28 @@ __Result__– The result was as expected.
 * __Test__– When clicked the Pinterest Icon in the Footer section should link to the Aled Garfield Pinterest page and should open a new browser window.  
 __Result__– The result was as expected.
 
+### Hover Function
+
+#### Does the hover function applied to specific anchor links behave as intended?
+
+* __Test__– When hovered over the brand logo color changes as expected.  
+__Result__– The result was as expected.
+
+* __Test__– When hovered over the links in the navigation change color as expected.  
+__Result__– The result was as expected.
+
+* __Test__– When hovered over all the internal button links change color as expected.  
+__Result__– The result was as expected.
+
+* __Test__– When hovered over the 'As featured badges' change color as expected.  
+__Result__– The result was as expected.
+
+* __Test__– When hovered over the social media icons in the footer change color as expected.  
+__Result__– The result was as expected.
+
+* __Test__– When hovered over the 'Back to top' link in the footer changes as expected.  
+__Result__– The result was as expected.
+
 ## Responsiveness 
 
 I have tested my site across 5 screen widths in order to best replicate the breadth of modern viewing devices, in order to ensure that the site responds and performs as expected. These are also the Bootstrap ‘breakpoints’ adhered to when building the website:
@@ -142,6 +164,9 @@ __Result__– The result was as expected.
 #### Home Page
 
 * __Test__– The layout appears as expected; the columns stack appropriately on top of each other with adequate spacing.  
+__Result__– The result was as expected.
+
+* __Test__– The Introductory section contains only one paragraph.  
 __Result__– The result was as expected.
 
 * __Test__– The kind words section shows two testimonials; the columns stack appropriately on top of each other with adequate spacing.  
@@ -203,6 +228,8 @@ __Result__– The result was as expected.
 * __Test__– The layout appears as expected; the columns stack appropriately on top of each other with adequate spacing.  
 __Result__– The result was as expected.
 
+* __Test__– The Introductory section contains two paragraphs.  
+__Result__– The result was as expected.
 
 * __Test__– The kind words section shows two testimonials; the columns stack appropriately on top of each other with adequate spacing.  
 __Result__– The result was as expected.
@@ -261,6 +288,8 @@ __Result__– The result was as expected.
 * __Test__– The layout appears as expected; the columns stack appropriately on top of each other with adequate spacing.  
 __Result__– The result was as expected.
 
+* __Test__– The Introductory section contains two paragraphs.  
+__Result__– The result was as expected.
 
 * __Test__– The kind words section shows two testimonials; the columns stack appropriately on top of each other with adequate spacing.  
 __Result__– The result was as expected.
@@ -318,6 +347,9 @@ __Result__– The result was as expected.
 * __Test__– The layout appears as expected; the columns in each section align side-by-side with adequate spacing.  
 __Result__– The result was as expected.
 
+* __Test__– The Introductory section contains two paragraphs.  
+__Result__– The result was as expected.
+
 * __Test__– The three portfolio images as expected; aligning side-by-side with equal spacing.  
 __Result__– The result was as expected.
 
@@ -373,6 +405,9 @@ __Result__– The result was as expected.
 #### Home Page
 
 * __Test__– The layout appears as expected; the columns in each section align side-by-side with adequate spacing.  
+__Result__– The result was as expected.
+
+* __Test__– The Introductory section contains two paragraphs.  
 __Result__– The result was as expected.
 
 * __Test__– The three portfolio images as expected; aligning side-by-side with equal spacing.  
