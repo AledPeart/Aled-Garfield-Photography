@@ -470,7 +470,7 @@ __Safari__ – external links open in a new window rather than in a new tab.
 ### Laptop
 
 __Firefox__ – no issues found 
-__Safari__ – no fade on badges__
+__Safari__ – 3 portfolio images on the homepage appeared vertically stretched
 
 ### Tablet 
 
@@ -480,7 +480,7 @@ __Safari__ - Hompepage images distorted when tablet held in landscape mode
 ### Mobile 
 
 __Firefox__ – no issues found  
-__Safari__ – Unable to test, no access to an IOS mobile device, and current covid-19 restrictions prevented me from sourcing one.
+__Safari__ – I asked a friend who has an  I-phone to go through the site for me, he also reported that the 3 portfolio images on the homepage appeared vertically stretched.
 
 
 ## HTML and CSS Validation
@@ -499,4 +499,18 @@ At the time of submission the results are showing no errors (see screenshots bel
 [about.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-check-about.png)  
 [contact.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-check-contact.png)  
 [style.css](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-check-css.png)
+
+## Test Results/Issues/Bugs
+
+1. Content overflowing the parent container on the homepage intro section.
+(https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug1.jpg)
+The above issue was being caused by the word 'photography' which at the given font size was too wide to fit the parent container. I was advised by my mentor to either reduce the font size or to write a media quey to correct the issue. A large font size was integral to the design, so on larger screens this was maintained, and for smaller screens I wrote the following media query to reduce the font size when the screen falls below 400px.
+
+''' @media screen and (max-width: 400px) {
+    .intro-headline h1 {
+        font-size: 45px;
+    }
+} '''
+
+
 
