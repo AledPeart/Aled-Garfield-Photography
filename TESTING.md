@@ -506,11 +506,25 @@ At the time of submission the results are showing no errors (see screenshots bel
 (https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug1.jpg)
 The above issue was being caused by the word 'photography' which at the given font size was too wide to fit the parent container. I was advised by my mentor to either reduce the font size or to write a media quey to correct the issue. A large font size was integral to the design, so on larger screens this was maintained, and for smaller screens I wrote the following media query to reduce the font size when the screen falls below 400px.
 
-''' @media screen and (max-width: 400px) {
+ ```css
+@media screen and (max-width: 400px) {
     .intro-headline h1 {
         font-size: 45px;
     }
-} '''
+} 
+```
+2. Gallery images not displaying properly on the portfolio page. The aim on this page was to achieve a clean, tiled gallery, with the images nicely aligned and the margins consistent, to give the user a pleasimg viewing experience.  I could not get the images to align properly and the margins were not equally spaced, after some time trying to figure this out I rrealised that the solution here was to re-size the images (portrait and landscape) in Photoshop to the exact same withs. This gave me the result I was aiming for.
+
+3. Horizontal page scroll and Footer margin issues. 
+(https://github.com/AledPeart/MS1-Aled-Garfield-Photography/tree/master/assets/images)
+I was getting a lot of horizontal movement on my site, particularly at smaller screen sizes. The contents would jump left and right, and was clearly not right. On a seperate but seemingly linked issue, my footer was displaying a right hand margin which should not have been there I spend a lot of time investigating this issue on DevTools, but as much as i tried I could not isolate what was casuing it. I spoke to my mentor, who confirmed that there was nothing aparent or obviuos causing the issue. In the end I found somebody else with a very similar issue on a post in 'Stack Overflow'. There were a number of suggestions, but one which worked on my site was suggested by @Viktor L which was to set the left and right margins for all rows to 0:
+
+```css
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+```
 
 
 
