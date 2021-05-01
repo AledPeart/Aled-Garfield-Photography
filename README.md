@@ -4,11 +4,11 @@
 
 # Aled Garfield Photography
 
-Aled Garfield Photography is a small independent Photography business specializing in wedding and family portrait photography. The purpose of this project is to build a new static frontend website for the business, in order to showcase the photographers work, generate customer enquiries and thereby facilitate further growth.
+Aled Garfield Photography is a small independent photography business specializing in wedding and family portrait photography. The purpose of this project is to build a new static frontend website for the business, in order to showcase the photographers work, generate customer enquiries and thereby facilitate further growth.
 
 ## About the Business
 
-I established Aled Garfield Photography in 2012, and it has grown steadily since. The business specializes in wedding and family portrait photography. The photographic style is very laid back and informal and the aim is to capture people naturally in a ‘documentary’ style rather than in a posed or forced fashion. This is key to the business’s brand and the aim is to provide a very relaxed and unique experience to customers on their wedding day or at their portrait session. 
+I established Aled Garfield Photography in 2012, and it has grown steadily since. The business specializes in wedding and family portrait photography. The photographic style is very laid back and informal and the aim is to capture people naturally in a ‘documentary’ style rather than in a posed or forced fashion. This is key to the business’ brand and the aim is to provide a very relaxed and unique experience to customers on their wedding day or at their portrait session. 
 As the sole photographer and therefore the ‘face’ of the business, the amount of work I can take on is limited and so generating enquiries from the right type of customers whose vision and expectations align with what I can offer them, is more important than generating a high volume of enquiries. This approach leads to an increased level of customer satisfaction, and a greater chance of referrals and repeat business, which for a small enterprise is hugely important. The role of a new website will be crucial in achieving these aims. The style of photography and brand ethos will be communicated to users through the use of strong showcase images and reinforced throughout the site using clean simple design, elegant, muted color palettes and consistent styling. Key information on pricing, style and ethos will be clearly communicated in text, while the layout will provide a positive user experience and guide users through the key areas of the website. Ultimately users whose needs are met by what is on offer will be lead to make contact through the websites contact form.
 
 
