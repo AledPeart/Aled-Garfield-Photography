@@ -487,8 +487,8 @@ __Safari__ – 3 portfolio images on the homepage appeared vertically stretched
 
 ### Tablet 
 
-__Firefox__ – Hompepage images distorted when tablet held in landscape mode  
-__Safari__ - Hompepage images distorted when tablet held in landscape mode
+__Firefox__ – Homepage images distorted when tablet held in landscape mode  
+__Safari__ - Homepage images distorted when tablet held in landscape mode
 
 ### Mobile 
 
@@ -498,8 +498,8 @@ __Safari__ – I asked a friend who has an  I-phone to go through the site for m
 
 ## HTML and CSS Validation
 
-While developing I have regularly validated ny HTML and CSS using [W3C Markup](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/).  
-Errors and Warnings that were highlited to me that I addressed during the project were:
+While developing I have regularly validated my HTML and CSS using [W3C Markup](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/).  
+Errors and Warnings that were highlighted to me that I addressed during the project were:
 * Image filenames containing capitals
 * Missing closing </div> tags
 * __section__ tags that did not have an __h1__ or an __h2__ as a direct child
@@ -519,11 +519,11 @@ I have used Lighthouse](https://developers.google.com/web/tools/lighthouse) in C
 
 ![Lighthouse screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/lighthouse-test-pre.jpg)   
 
-I implemented the following reccomendations made in the report:
-1. Changing the colour of the text in the testemonial section of the homepage to increease the conrast and improve accesibility.
-2. Ammending the sub-heading on the introduction section on the homepage from a __h3__ to a __h2__ to improve the semantics of my HTML.
-3. Adding __rel="noopener"__ to the all external links across the site to reduce the site's vunerability.
-4. Adding a __meta description__ tag to the __<head>__ element of each page to imnprove my SEO.
+I implemented the following recommendations made in the report:
+1. Changing the colour of the text in the testimonial section of the homepage to increase the contrast and improve accessibility.
+2. Amending the sub-heading on the introduction section on the homepage from a __h3__ to a __h2__ to improve the semantics of my HTML.
+3. Adding __rel="noopener"__ to all external links across the site to reduce the site's  vulnerability.
+4. Adding a __meta description__ tag to the __<head>__ element of each page to improve my SEO.
 
 Following these changes I re-ran the Lighthouse tests and the improved scores can be seen below   
 
@@ -542,11 +542,11 @@ The above issue was being caused by the word 'photography' which at the given fo
     }
 } 
 ```
-2. Gallery images not displaying properly on the portfolio page. The aim on this page was to achieve a clean, tiled gallery, with the images nicely aligned and the margins consistent, to give the user a pleasimg viewing experience.  I could not get the images to align properly and the margins were not equally spaced, after some time trying to figure this out I rrealised that the solution here was to re-size the images (portrait and landscape) in Photoshop to the exact same withs. This gave me the result I was aiming for.
+2. Gallery images not displaying properly on the portfolio page. The aim on this page was to achieve a clean, tiled gallery, with the images nicely aligned and the margins consistent, to give the user a pleasing viewing experience.  I could not get the images to align properly and the margins were not equally spaced, after some time trying to figure this out I realised that the solution here was to re-size the images (portrait and landscape) in Photoshop to the exact same widths. This gave me the result I was aiming for.
 
 3. Horizontal page scroll and Footer margin issues. 
 ![bug screenshot 3](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug3.jpg)
-I was getting a lot of horizontal movement on my site, particularly at smaller screen sizes. The contents would jump left and right, and was clearly not right. On a seperate but seemingly linked issue, my footer was displaying a right hand margin which should not have been there I spend a lot of time investigating this issue on DevTools, but as much as i tried I could not isolate what was casuing it. I spoke to my mentor, who confirmed that there was nothing aparent or obviuos causing the issue. In the end I found somebody else with a very similar issue on a post in [Stack Overflow](https://stackoverflow.com/questions/23768152/using-container-fluid-within-bootstrap-cause-horizontal-scrollbar) There were a number of suggestions, but one which worked on my site was suggested by @Viktor L which was to set the left and right margins for all rows to 0:
+I was getting a lot of horizontal movement on my site, particularly at smaller screen sizes. The contents would jump left and right, and was clearly not right. On a separate but seemingly linked issue, my footer was displaying a right hand margin which should not have been there I spend a lot of time investigating this issue on DevTools, but as much as i tried I could not isolate what was causing it. I spoke to my mentor, who confirmed that there was nothing apparent or obvious causing the issue. In the end I found somebody else with a very similar issue on a post in [Stack Overflow](https://stackoverflow.com/questions/23768152/using-container-fluid-within-bootstrap-cause-horizontal-scrollbar) There were a number of suggestions, but one which worked on my site was suggested by @Viktor L which was to set the left and right margins for all rows to 0:
 
 ```css
 .row {
@@ -554,9 +554,9 @@ I was getting a lot of horizontal movement on my site, particularly at smaller s
   margin-right: 0;
 }
 ```
-4. Images stretching horizontally on Iphone/Ipad.
+4. Images stretching horizontally on iphone/ipad.
 ![bug screenshot 4](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug4.jpg)
-When my site was viewed in safari on an Ipad and an Iphone, the images in the portfolio section of the homepage appeared to be stretching out vertically. When testing in Chrome DevTools and on physical devices using the Chrome browser the issue did not appear, and the images scaled to fit the screen appropriately. I tried to fix the issue using Bootstrap's 'image-fluid' class. I was unable to resolve this by myself, but after some investigating I found a solution on [Stack Overflow](https://stackoverflow.com/questions/57516373/image-stretching-in-flexbox-in-safari). Credit to @Michael_B for the following snippet which addressed the issue:
+When my site was viewed in safari on an ipad and an iphone, the images in the portfolio section of the homepage appeared to be stretching out vertically. When testing in Chrome DevTools and on physical devices using the Chrome browser the issue did not appear, and the images scaled to fit the screen appropriately. I tried to fix the issue using Bootstrap's 'image-fluid' class. I was unable to resolve this by myself, but after some investigating I found a solution on [Stack Overflow](https://stackoverflow.com/questions/57516373/image-stretching-in-flexbox-in-safari). Credit to @Michael_B for the following snippet which addressed the issue:
 
 ```
 portfolio-image-div {
@@ -567,7 +567,7 @@ According to users on that thread, this is a common bug whereby Safari will stre
 
 5. Footer text being pushed into the margin. At medium screen resolutions the 'copyright' footer text was being pushed into the bottom left of the screen, causing some of it to be lost.
 ![bug screenshot 5](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug5.jpg)
-I was able to resolve this issue by writing the folowing media query:
+I was able to resolve this issue by writing the following media query:
 ```
 @media screen and (min-width: 768px) {
     .copyright-footer-text {
