@@ -4,7 +4,7 @@
 
 # Aled Garfield Photography
 
-Aled Garfield Photography is a small independent photography business specializing in wedding and family portrait photography. The purpose of this project is to build a new static frontend website for the business, in order to showcase the photographers work, generate customer enquiries and thereby facilitate further growth.
+Aled Garfield Photography is a small independent photography business specialising in wedding and family portrait photography. The purpose of this project is to build a new static frontend website for the business, in order to showcase the photographers work, generate customer enquiries and thereby facilitate further growth.
 
 ## About the Business
 

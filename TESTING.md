@@ -76,8 +76,12 @@ __Result__– The result was as expected.
 * __Test__– When clicked the Contact Me button on the Portfolio page should link to the Contact page and open within the existing browser window.  
 __Result__– The result was as expected.
 
-* __Test__– When clicked the Contact Me button on the About Me should link to the Contact page and open within the existing browser window.  
+* __Test__– When clicked the Contact Me button on the About Me page should link to the Contact page and open within the existing browser window.  
 __Result__– The result was as expected.
+
+* __Test__– When clicked the Click Me button on the 404 page should link back to the Home page and open within the existing browser window.  
+__Result__– The result was as expected.
+
 
 #### Does the internal link in the Footer section perform as expected and link to the correct page area and open within the existing browser window?
 
@@ -111,6 +115,15 @@ __Result__– The result was as expected.
 
 * __Test__– When clicked the Pinterest Icon in the Footer section should link to the Aled Garfield Pinterest page and should open a new browser window.  
 __Result__– The result was as expected.
+
+#### Does the 404 page function as expected ?
+
+* __Test__– The 404 page loads when a link is broken or a page cannot be reached.
+__Result__– The result was as expected.
+
+* __Test__– The 404 page responds as expected across different browser sizes.
+__Result__– The result was as expected.
+
 
 ### Hover Function
 
