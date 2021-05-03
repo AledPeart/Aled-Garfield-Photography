@@ -433,16 +433,21 @@ textarea {
 
 /* --------------404 Page---------------- */
 
-.not-found-icon {
-    color: yellow;
-    font-size: 2em;
-    padding: 5px;
+.not-found-container {
+    background-color: #f1f1f1;
+    padding-bottom: 25px;
 }
 
 .not-found-icon {
-    font-size: 100px;
+    color: #000;
+    font-size: 3rem;
+    background-color: yellow;
+    border-radius: 50%;
 }
 
+.not-found-container p {
+    font-size: 1.5rem;
+}
 
 /* --------------Footer---------------- */
 
