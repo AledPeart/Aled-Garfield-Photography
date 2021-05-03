@@ -516,7 +516,7 @@ At the time of submission the results are showing no errors (see screenshots bel
 ## Lighthouse Testing
 
 I have used Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools to test the accessibility and performance of my site. The initial test gave me the following results:
-![Lighthouse screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/lighthouse-testing-pre.jpg)
+![Lighthouse screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/lighthouse-test-pre.jpg)
 I implemented the following reccomendations made in the report:
 1. Changing the colour of the text in the testemonial section of the homepage to increease the conrast and improve accesibility.
 2. Ammending the sub-heading on the introduction section on the homepage from a __h3__ to a __h2__ to improve the semantics of my HTML.
@@ -524,7 +524,7 @@ I implemented the following reccomendations made in the report:
 4. Adding a __meta description__ tag to the __<head>__ element of each page to imnprove my SEO.
 
 Following these changes I re-ran the Lighthouse tests and the improved scores can be seen below
-![Lighthouse screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/lighthouse-testing-post.jpg)
+![Lighthouse screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/lighthouse-test-post.jpg)
 
 ## Test Results/Issues/Bugs
 
