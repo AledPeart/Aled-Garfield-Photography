@@ -1,20 +1,20 @@
-![AGP Landing Page](Wireframes/agp-landing-page.jpg)
+![AGP Landing Page-mockup](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/Mockup.png)
 
 [View deployed site here](https://aledpeart.github.io/MS1-Aled-Garfield-Photography/index.html)
 
 # Aled Garfield Photography
 
-Aled Garfield Photography is a small independent Photography business specializing in wedding and family portrait photography. The purpose of this project is to build a new static frontend website for the business, in order to showcase the photographers work, generate customer enquiries and thereby facilitate further growth.
+Aled Garfield Photography is a small independent photography business specializing in wedding and family portrait photography. The purpose of this project is to build a new static frontend website for the business, in order to showcase the photographers work, generate customer enquiries and thereby facilitate further growth.
 
 ## About the Business
 
-I established Aled Garfield Photography in 2012, and it has grown steadily since. The business specializes in wedding and family portrait photography. The photographic style is very laid back and informal and the aim is to capture people naturally in a ‘documentary’ style rather than in a posed or forced fashion. This is key to the business’s brand and the aim is to provide a very relaxed and unique experience to customers on their wedding day or at their portrait session. 
+I established Aled Garfield Photography in 2012, and it has grown steadily since. The business specializes in wedding and family portrait photography. The photographic style is very laid back and informal and the aim is to capture people naturally in a ‘documentary’ style rather than in a posed or forced fashion. This is key to the business’ brand and the aim is to provide a very relaxed and unique experience to customers on their wedding day or at their portrait session. 
 As the sole photographer and therefore the ‘face’ of the business, the amount of work I can take on is limited and so generating enquiries from the right type of customers whose vision and expectations align with what I can offer them, is more important than generating a high volume of enquiries. This approach leads to an increased level of customer satisfaction, and a greater chance of referrals and repeat business, which for a small enterprise is hugely important. The role of a new website will be crucial in achieving these aims. The style of photography and brand ethos will be communicated to users through the use of strong showcase images and reinforced throughout the site using clean simple design, elegant, muted color palettes and consistent styling. Key information on pricing, style and ethos will be clearly communicated in text, while the layout will provide a positive user experience and guide users through the key areas of the website. Ultimately users whose needs are met by what is on offer will be lead to make contact through the websites contact form.
 
 
 ## User Expreience
 
-Here I will address to aims and goals of the website from both the perspectives of the users and of the business owner. I will also 
+Here I will address the aims and goals of the website from both the perspectives of the users and of the business owner. I will also 
 
 ### User objectives
 
@@ -152,21 +152,26 @@ The other pages, linked from the navigation bar and from the main page where app
 
 * HTML 5 – page content and structure
 * CSS3 – Styling
-* Bootstrap v4.3.1 – Navigation bar, page layout and responsive design.
-* Google ChromeDev Tools – for site testing and debugging
-* Google Lighthouse for site testing
-* Google Fonts – Typography
-* Font Awesome – Icons
+* [Bootstrap](https://getbootstrap.com/) (v4.3.1) – Navigation bar, page layout and responsive design.
+* [Git](https://git-scm.com/) - Version control tracking
+* [Github](https://github.com/) - Project hosting
+* [Gitpod](https://www.gitpod.io/) - Development
+* [Balsamiq](https://balsamiq.com/) - Wireframes
+* [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) – for site testing and debugging
+* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) for site testing
+* [Google Fonts](https://fonts.google.com/) – Typography
+* [Font Awesome](https://fontawesome.com/) – Icons
+* [Photoshop](https://www.photoshop.com/en) - Image re-sizing
 
 
 
 ## Testing
-You can view my seperate TESTING.md file [here] ()
+You can view my seperate TESTING.md file [here](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/TESTING.md)
 
 
 
 ## Deployment
-This project was developed using [Gitpod](https://www.gitpod.io/) and was committed and pushed to Github using the following terminal commands within Gitpod:
+This project was developed using [Gitpod](https://www.gitpod.io/) and was committed and pushed to [Github](https://github.com/) using the following terminal commands within Gitpod:
 
 - _git add_ 
 - _git commit –m “commit message”_
@@ -199,7 +204,25 @@ Full details of these summarised steps can be found [here](https://docs.github.c
 
 ## Credits
 
+* This project was created from a [Code Institute](https://codeinstitute.net/) student template
+
+* Code borrowed from the [App Brewery](https://www.appbrewery.co) used to style the horizontal rules.
+* [Bootstrap](https://getbootstrap.com/) Components used for the navigation bar, form, and the Bootstrap Grid system used to streamline layouts and responsive design.
+* Ideas and knowledge gleamed from 
+  * [W3 Schools](https://www.w3schools.com/)
+  * [CSS-Tricks](https://css-tricks.com/)
+  * [Bootstrap](https://getbootstrap.com/)
+  * Duckett, J. 2011. HTML and CSS: Design and Build Websites. John Wiley & Sons Inc.
+* Fonts [Google Fonts](https://fonts.google.com/)
+* Icons [Font Aesome](https://fontawesome.com/)
+
 ## Content/Media/Acknowledgements
 
-All images provided by Aled Garfield Photography
+* All images supplied by and copyright of Aled Garfield Photography Ltd
+* As Featured Badges courtesy of 
+  * [Love My Dress](https://www.lovemydress.net/) 
+  * [Whimsical Wonderland Weddings](https://whimsicalwonderlandweddings.com/) 
+  * [Rock My Wedding](https://www.rockmywedding.co.uk/) 
+  * [Cwtch the Bride](https://www.facebook.com/cwtchthebride/)
+
 

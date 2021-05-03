@@ -112,6 +112,28 @@ __Result__– The result was as expected.
 * __Test__– When clicked the Pinterest Icon in the Footer section should link to the Aled Garfield Pinterest page and should open a new browser window.  
 __Result__– The result was as expected.
 
+### Hover Function
+
+#### Does the hover function applied to specific anchor links behave as intended?
+
+* __Test__– When hovered over the brand logo color changes as expected.  
+__Result__– The result was as expected.
+
+* __Test__– When hovered over the links in the navigation change color as expected.  
+__Result__– The result was as expected.
+
+* __Test__– When hovered over all the internal button links change color as expected.  
+__Result__– The result was as expected.
+
+* __Test__– When hovered over the 'As featured badges' change color as expected.  
+__Result__– The result was as expected.
+
+* __Test__– When hovered over the social media icons in the footer change color as expected.  
+__Result__– The result was as expected.
+
+* __Test__– When hovered over the 'Back to top' link in the footer changes as expected.  
+__Result__– The result was as expected.
+
 ## Responsiveness 
 
 I have tested my site across 5 screen widths in order to best replicate the breadth of modern viewing devices, in order to ensure that the site responds and performs as expected. These are also the Bootstrap ‘breakpoints’ adhered to when building the website:
@@ -142,6 +164,9 @@ __Result__– The result was as expected.
 #### Home Page
 
 * __Test__– The layout appears as expected; the columns stack appropriately on top of each other with adequate spacing.  
+__Result__– The result was as expected.
+
+* __Test__– The Introductory section contains only one paragraph.  
 __Result__– The result was as expected.
 
 * __Test__– The kind words section shows two testimonials; the columns stack appropriately on top of each other with adequate spacing.  
@@ -203,6 +228,8 @@ __Result__– The result was as expected.
 * __Test__– The layout appears as expected; the columns stack appropriately on top of each other with adequate spacing.  
 __Result__– The result was as expected.
 
+* __Test__– The Introductory section contains two paragraphs.  
+__Result__– The result was as expected.
 
 * __Test__– The kind words section shows two testimonials; the columns stack appropriately on top of each other with adequate spacing.  
 __Result__– The result was as expected.
@@ -261,6 +288,8 @@ __Result__– The result was as expected.
 * __Test__– The layout appears as expected; the columns stack appropriately on top of each other with adequate spacing.  
 __Result__– The result was as expected.
 
+* __Test__– The Introductory section contains two paragraphs.  
+__Result__– The result was as expected.
 
 * __Test__– The kind words section shows two testimonials; the columns stack appropriately on top of each other with adequate spacing.  
 __Result__– The result was as expected.
@@ -318,6 +347,9 @@ __Result__– The result was as expected.
 * __Test__– The layout appears as expected; the columns in each section align side-by-side with adequate spacing.  
 __Result__– The result was as expected.
 
+* __Test__– The Introductory section contains two paragraphs.  
+__Result__– The result was as expected.
+
 * __Test__– The three portfolio images as expected; aligning side-by-side with equal spacing.  
 __Result__– The result was as expected.
 
@@ -373,6 +405,9 @@ __Result__– The result was as expected.
 #### Home Page
 
 * __Test__– The layout appears as expected; the columns in each section align side-by-side with adequate spacing.  
+__Result__– The result was as expected.
+
+* __Test__– The Introductory section contains two paragraphs.  
 __Result__– The result was as expected.
 
 * __Test__– The three portfolio images as expected; aligning side-by-side with equal spacing.  
@@ -435,7 +470,7 @@ __Safari__ – external links open in a new window rather than in a new tab.
 ### Laptop
 
 __Firefox__ – no issues found 
-__Safari__ – no fade on badges__
+__Safari__ – 3 portfolio images on the homepage appeared vertically stretched
 
 ### Tablet 
 
@@ -445,7 +480,7 @@ __Safari__ - Hompepage images distorted when tablet held in landscape mode
 ### Mobile 
 
 __Firefox__ – no issues found  
-__Safari__ – Unable to test, no access to an IOS mobile device, and current covid-19 restrictions prevented me from sourcing one.
+__Safari__ – I asked a friend who has an  I-phone to go through the site for me, he also reported that the 3 portfolio images on the homepage appeared vertically stretched.
 
 
 ## HTML and CSS Validation
@@ -464,4 +499,54 @@ At the time of submission the results are showing no errors (see screenshots bel
 [about.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-check-about.png)  
 [contact.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-check-contact.png)  
 [style.css](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-check-css.png)
+
+## Test Results/Issues/Bugs
+
+1. Content overflowing the parent container on the homepage intro section.
+![bug screenshot 1](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug1.jpg)
+The above issue was being caused by the word 'photography' which at the given font size was too wide to fit the parent container. I was advised by my mentor to either reduce the font size or to write a media query to correct the issue. A large font size was integral to the design, so on larger screens this was maintained, and for smaller screens I wrote the following media query to reduce the font size when the screen falls below 400px.
+
+ ```css
+@media screen and (max-width: 400px) {
+    .intro-headline h1 {
+        font-size: 45px;
+    }
+} 
+```
+2. Gallery images not displaying properly on the portfolio page. The aim on this page was to achieve a clean, tiled gallery, with the images nicely aligned and the margins consistent, to give the user a pleasimg viewing experience.  I could not get the images to align properly and the margins were not equally spaced, after some time trying to figure this out I rrealised that the solution here was to re-size the images (portrait and landscape) in Photoshop to the exact same withs. This gave me the result I was aiming for.
+
+3. Horizontal page scroll and Footer margin issues. 
+![bug screenshot 3](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug3.jpg)
+I was getting a lot of horizontal movement on my site, particularly at smaller screen sizes. The contents would jump left and right, and was clearly not right. On a seperate but seemingly linked issue, my footer was displaying a right hand margin which should not have been there I spend a lot of time investigating this issue on DevTools, but as much as i tried I could not isolate what was casuing it. I spoke to my mentor, who confirmed that there was nothing aparent or obviuos causing the issue. In the end I found somebody else with a very similar issue on a post in [Stack Overflow](https://stackoverflow.com/questions/23768152/using-container-fluid-within-bootstrap-cause-horizontal-scrollbar) There were a number of suggestions, but one which worked on my site was suggested by @Viktor L which was to set the left and right margins for all rows to 0:
+
+```css
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+```
+4. Images stretching horizontally on Iphone/Ipad.
+![bug screenshot 4](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug4.jpg)
+When my site was viewed in safari on an Ipad and an Iphone, the images in the portfolio section of the homepage appeared to be stretching out vertically. When testing in Chrome DevTools and on physical devices using the Chrome browser the issue did not appear, and the images scaled to fit the screen appropriately. I tried to fix the issue using Bootstrap's 'image-fluid' class. I was unable to resolve this by myself, but after some investigating I found a solution on [Stack Overflow](https://stackoverflow.com/questions/57516373/image-stretching-in-flexbox-in-safari). Credit to @Michael_B for the following snippet which addressed the issue:
+
+```
+portfolio-image-div {
+    align-items: flex-start;
+}
+```
+According to users on that thread, this is a common bug whereby Safari will stretch the image to it's full height rather than to the confines of the parent container.
+
+5. Footer text being pushed into the margin. At medium screen resolutions the 'copyright' footer text was being pushed into the bottom left of the screen, causing some of it to be lost.
+![bug screenshot 5](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug5.jpg)
+I was able to resolve this issue by writing the folowing media query:
+```
+@media screen and (min-width: 768px) {
+    .copyright-footer-text {
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+}
+```
+This ensured that at screen sizes above 768px and additional left an bottom margin was applied to the footer text.
+
 
