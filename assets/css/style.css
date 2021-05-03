@@ -9,6 +9,7 @@
     margin: 20px 5px;
 }
 
+/* Following code lifted from a post on stack overflow, and used to correct an issue with horizontal page scroll and unwanted margins on the footer */
 .row {
     margin-left: 0;
     margin-right: 0;
@@ -166,6 +167,7 @@
     text-transform: uppercase;
 }
 
+/* Credit - this code used to fix a common bug on Safari where some images appear stretched - lifted from stack overflow credit: @Michael_B */
 .portfolio-image-div {
     align-items: flex-start;
 }
@@ -218,9 +220,18 @@
 
 /* --------------Home Page - Testemonial Section---------------- */
 
-.hp-testemonial {
-    margin-bottom: 25px 0px;
+/* following media query to increase the padding and space the horizontal rule to be more visually pleasing on larger devices */
+
+@media screen and (min-width: 992px) {
+    .hp-testemonial {
+        padding-bottom: 40px;
+    }
 }
+
+
+/* not sure this is needed now .hp-testemonial {
+    margin-bottom: 25px 0px;
+} */
 
 .kind-words-h2 {
     font-family: 'Roboto', sans-serif;
@@ -420,6 +431,19 @@ textarea {
     padding-bottom: 30px;
 }
 
+/* --------------404 Page---------------- */
+
+.notfound-icon {
+    color: yellow;
+    font-size: 2em;
+    padding: 5px;
+}
+
+.not-found-icon {
+    font-size: 100px;
+}
+
+
 /* --------------Footer---------------- */
 
 /* following media query to stop the copyright text sitting to close to the bottom and left margins on viewports >768px */
@@ -488,7 +512,7 @@ textarea {
 }
 
 .back-to-top-footer-link:hover {
-    color: #000;
+    color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
 }
 
