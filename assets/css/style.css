@@ -201,7 +201,7 @@
     font-weight: 200;
 }
 
-.hp-about-text h3 {
+.hp-about-text h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -246,15 +246,17 @@
 }
 
 .blockquote p {
-    color: #777;
+    color: #000;
     font-family: 'Roboto', sans-serif;
     font-size: 1 rem;
     font-weight: 300;
+    line-height: 1.7;
+    font-style: italic;
 }
 
 .blockquote-footer {
     padding: 10px;
-    color: black
+    color: #000;
 }
 
 .middle-blockquote {
