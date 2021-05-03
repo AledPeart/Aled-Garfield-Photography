@@ -53,9 +53,6 @@ Here I will address the aims and goals of the website from both the perspectives
 *	Using good design and a well-planned layout to guide users through the site and to generate customer ‘contacts’ via the contact form, leading to increased bookings/sales.
 
 
-
-
-
 ### User Stories
 
 * As a potential customer visiting the website I want a pleasant user experience and be able to navigate around the site easily. End user goal: Receive a positive user experience and easily navigate the site to receive the information I need. End business goal: Guide the user gently through the site, leading them towards making contact. Measurement of success: Increased percentage of visitors to the site making direct contact.
@@ -80,7 +77,7 @@ Here I will address the aims and goals of the website from both the perspectives
 
 *	Clearly defined sections – visually pleasing.
 
-*	Clear navigation and site organisation (use of dropdown menus to design clean)
+*	Clear navigation and site organisation (use of dropdown menus to keep design clean)
 
 *	Strong ‘showcase’ images to draw you in.
 
@@ -93,8 +90,6 @@ Here I will address the aims and goals of the website from both the perspectives
 *	Consistent styling – fonts, header, footer, logo, buttons icons – create a pleasant experience and a sense of ‘flow’
 
 *	Design to be consistent with the business’ brand – laid back, non formal, non traditional, documentary/candid images.
-
-
 
 
 ### UX Design Goals
@@ -117,9 +112,9 @@ The footer area will contain copyright information, links to social media pages 
 
 The landing/home page will be split into a series of clearly defined sections that the user can scroll through, which will highlight the features of the site, a kind of ‘visual menu’ from which the user can choose to explore the site.
 
-The first thing users will see is a series of full-width images just below the page header which will play on a carousel/slideshow and display the photographers best images, and which encapsulate the ethos of the business’ brand, and instantly familiarises users with the style and quality of the photography. Below the images will be some headline text and a paragraph which introduces the user to the site. Underneath this will be a portfolio section showing 3 images which link to the gallery page. This will be followed by a short about me section and link so that users can learn more. (*either an expanding link or a link into a separate page if necessary*). This will be followed by a testimonial section, containing some quotes from past customers. Finally at the bottom of the landing page there will be a contact me section **(_either to link to a contact me page or simply to contain the form on the page, whichever is deemed best UX_)**
+The first thing users will see is a full-width image just below the page header, which encapsulates the ethos of the business’ brand, and instantly familiarises users with the style and quality of the photography. Below the images will be some headline text and a paragraph which introduces the user to the site. Underneath this will be a portfolio section showing 3 further images and a link to the 'portfolio' page. This will be followed by a short 'about me' section and link so that users can learn more. (*either an expanding link or a link into a separate page if necessary*). This will be followed by a testimonial section, containing some quotes from past customers. Finally at the bottom of the landing page there will be a contact me section which will link to the 'contact' page, where users can complete a contact form in order to make contact with the photographer.
 
-The other pages, linked from the navigation bar and from the main page where applicable will be:
+The pages, linked from the navigation bar and from the main page where applicable will be:
 
 * About Me – A page containing some images and bio of the photographer and some more detail on the photographic style offered.
 
@@ -128,15 +123,10 @@ The other pages, linked from the navigation bar and from the main page where app
 * Contact Page – a contact form where users can get in touch to enquire about availability
 
 
-
-
-
-
-
 ## Wireframes 
-[Detailed mock-ups](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/tree/master/Wireframes/Wireframe%20-%20Detailed)
+[Detailed mock-ups](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/tree/master/wireframes/wireframe%20-%20detailed)
 
-[Initial sketches](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/tree/master/Wireframes/Wireframe%20-%20Initial%20Sketches)
+[Initial sketches](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/tree/master/Wireframes/wireframe%20-%20Initial%20sketches)
 
 ## Features Left to implement
 
@@ -199,13 +189,15 @@ In order to clone and run this project locally, you will need to follow these st
 Full details of these summarised steps can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
  
 
-
 ## Bugs
+
+Details of any bugs encountered and etsting results are contained in the seperate TESTING.md file [here](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/TESTING.md)
+
 
 ## Credits
 
 * This project was created from a [Code Institute](https://codeinstitute.net/) student template
-
+* Gallery layout code was borrowed from the 'Love Running' tutorial video from [Code Institute](https://codeinstitute.net/)
 * Code borrowed from the [App Brewery](https://www.appbrewery.co) used to style the horizontal rules.
 * [Bootstrap](https://getbootstrap.com/) Components used for the navigation bar, form, and the Bootstrap Grid system used to streamline layouts and responsive design.
 * Ideas and knowledge gleamed from 
