@@ -12,7 +12,7 @@ I established Aled Garfield Photography in 2012, and it has grown steadily since
 As the sole photographer and therefore the ‘face’ of the business, the amount of work I can take on is limited and so generating enquiries from the right type of customers whose vision and expectations align with what I can offer them, is more important than generating a high volume of enquiries. This approach leads to an increased level of customer satisfaction, and a greater chance of referrals and repeat business, which for a small enterprise is hugely important. The role of a new website will be crucial in achieving these aims. The style of photography and brand ethos will be communicated to users through the use of strong showcase images and reinforced throughout the site using clean simple design, elegant, muted color palettes and consistent styling. Key information on pricing, style and ethos will be clearly communicated in text, while the layout will provide a positive user experience and guide users through the key areas of the website. Ultimately users whose needs are met by what is on offer will be lead to make contact through the websites contact form.
 
 
-## User Expreience
+## User Experience
 
 Here I will address the aims and goals of the website from both the perspectives of the users and of the business owner. I will also 
 
@@ -124,6 +124,10 @@ The pages, linked from the navigation bar and from the main page where applicabl
 
 
 ## Wireframes 
+![AGP wireframe](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/wireframes/wireframe-screen-shot)   
+
+To view the wireframes in full please click below:
+
 [Detailed mock-ups](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/tree/master/wireframes/wireframe%20-%20detailed)
 
 [Initial sketches](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/tree/master/Wireframes/wireframe%20-%20Initial%20sketches)
@@ -156,7 +160,7 @@ The pages, linked from the navigation bar and from the main page where applicabl
 
 
 ## Testing
-You can view my seperate TESTING.md file [here](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/TESTING.md)
+You can view my separate TESTING.md file [here](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/TESTING.md)
 
 
 
@@ -191,7 +195,7 @@ Full details of these summarised steps can be found [here](https://docs.github.c
 
 ## Bugs
 
-Details of any bugs encountered and etsting results are contained in the seperate TESTING.md file [here](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/TESTING.md)
+Details of any bugs encountered and etsting results are contained in the separate TESTING.md file [here](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/TESTING.md)
 
 
 ## Credits
