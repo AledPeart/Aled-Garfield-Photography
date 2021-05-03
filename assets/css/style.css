@@ -248,10 +248,14 @@
 .blockquote p {
     color: #000;
     font-family: 'Roboto', sans-serif;
-    font-size: 1 rem;
+    font-size: 1rem;
     font-weight: 300;
     line-height: 1.7;
     font-style: italic;
+}
+
+.mb0 {
+    font-size: 1rem;
 }
 
 .blockquote-footer {
