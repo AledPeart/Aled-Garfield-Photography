@@ -132,7 +132,7 @@ To view the wireframes in full please click below:
 
 [Initial sketches](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/tree/master/Wireframes/wireframe%20-%20Initial%20sketches)
 
-## Features Left to implement
+## Features left to implement
 
 * A ‘blog’ section, which will display posts with a series of images from individual weddings/portrait sessions.
 
