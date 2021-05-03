@@ -127,7 +127,7 @@
 
 .intro-paragraph {
     padding: 25px;
-    font-size: 1 rem;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     line-height: 1.7;
@@ -212,7 +212,7 @@
 
 .hp-about-paragraph {
     padding: 25px;
-    font-size: 1 rem;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     line-height: 1.7;
@@ -252,10 +252,6 @@
     font-weight: 300;
     line-height: 1.7;
     font-style: italic;
-}
-
-.mb0 {
-    font-size: 1rem;
 }
 
 .blockquote-footer {
