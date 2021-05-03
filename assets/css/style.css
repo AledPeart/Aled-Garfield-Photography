@@ -367,6 +367,8 @@ textarea {
 
 /* --------------Portfolio Page---------------- */
 
+/* elements of the code to style the gallery borrowed from Code Institute's 'love running' project */
+
 #photo-gallery {
     padding: 10px;
     column-gap: 10px;
