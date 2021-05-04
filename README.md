@@ -8,21 +8,21 @@ Aled Garfield Photography is a small independent photography business specialisi
 
 ## __Table of Contents__
 1. [About the Business](#about-the-business)
-* ## User Experience
+2. [User Experience](#user-experience)
    - ### User objectives
    - ### User Stories
    - ### Owner Objectives
    - ### Design Objectives
    - ### UX Design Goals
-* ## Layout & Features
-* ## Wireframes 
-* ## Features left to implement
-* ## Technologies Used
-* ## Testing
-* ## Deployment
-* ## Bugs
-* ## Credits
-11. [Credits](#credits)
+3. [Layout and Features](#layout-and-features)
+4. [Wireframes](#wireframes)
+5. [Features left to implement](#features-left-to-implement)
+6. [Technologies Used](#technologies-used)
+7. [Testing](#testing)
+8. [Deployment](#deployment)
+9. [Bugs](#bugs)
+10. [Credits](#credits)
+11. [Content](#content)
 
 ## About the Business
 
@@ -118,7 +118,7 @@ Here I will address the aims and goals of the website from both the perspectives
 
 *	Design adheres to current norms and conventions e.g navbar/footer at the top/bottom of each page, clear navigation labels.
 
-## Layout & Features
+## Layout and Features
 
 * All pages will have the same basic structure, namely a navigation bar at the top of each page, and a footer area at the bottom of each page. 
 
@@ -232,7 +232,7 @@ Details of any bugs encountered and tetsting results are contained in the separa
 
 ## Content/Media/Acknowledgements
 
-* All images supplied by and copyright of Aled Garfield Photography Ltd
+* All content and images supplied by and copyright of Aled Garfield Photography Ltd
 * As Featured Badges courtesy of 
   * [Love My Dress](https://www.lovemydress.net/) 
   * [Whimsical Wonderland Weddings](https://whimsicalwonderlandweddings.com/) 
