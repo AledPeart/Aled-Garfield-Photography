@@ -2,7 +2,7 @@
 
 [README.md](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/README.md)
 
-I have tested my site to ensure that it achieves the intended aims of the owner and the expectations of the users by meeting the user stories detailed in the [README.md](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/README.md). I have also manually tested my site across a number of different devices and browsers to ensure that the design, layout and functionality respond as intended. In addition the validity of my HTML and CSS have been checked using the [W3C Markup](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/). Finally I have used ]Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools to test the accessibility and performance of my site. The specific tests and results are detailed below:
+I have tested my site to ensure that it achieves the intended aims of the owner and the expectations of the users by meeting the user stories detailed in the [README.md](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/README.md). I have also manually tested my site across a number of different devices and browsers to ensure that the design, layout and functionality respond as intended. In addition the validity of my HTML and CSS have been checked using the [W3C Markup](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/). Finally I have used [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools to test the accessibility and performance of my site. The specific tests and results are detailed below:
 
 ## User Stories
 
@@ -466,26 +466,26 @@ To further ensure my site was functioning as expected I have tested it across di
 *	Tablet
 *	Mobile device
 
-I followed the testing criterias that I have detailed above for my Manual Testing, but I have not detailed the results of the tests in full detail here as I feel it would prove too lengthy for it’s intended purpose. I have however summarised the results and the issues encountered below:
+I followed the same testing criterias that I used for my Manual Testing, but I have not detailed the results of the tests in full here as I feel it would prove too lengthy for it’s intended purpose. I have however summarised the results and the issues encountered below:
 
 ### Large Screen Desktop
 
-__Firefox__ – Hover function not working correctly on the ‘as featured’ badges   
-__Safari__ – external links open in a new window rather than in a new tab.
+__Firefox__ – No issues found   
+__Safari__ – No issues found 
 
 ### Laptop
 
-__Firefox__ – no issues found 
+__Firefox__ – No issues found 
 __Safari__ – 3 portfolio images on the homepage appeared vertically stretched
 
 ### Tablet 
 
-__Firefox__ – Homepage images distorted when tablet held in landscape mode  
-__Safari__ - Homepage images distorted when tablet held in landscape mode
+__Firefox__ – No issues found   
+__Safari__ - 3 portfolio images on the homepage appeared vertically stretched
 
 ### Mobile 
 
-__Firefox__ – no issues found  
+__Firefox__ – No issues found  
 __Safari__ – I asked a friend who has an  I-phone to go through the site for me, he also reported that the 3 portfolio images on the homepage appeared vertically stretched.
 
 
@@ -508,7 +508,7 @@ At the time of submission the results are showing no errors (see screenshots bel
 
 ## Lighthouse Testing
 
-I have used Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools to test the accessibility and performance of my site. The initial test gave me the following results:   
+I have used [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools to test the accessibility and performance of my site. The initial test gave me the following results:   
 
 ![Lighthouse screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/lighthouse-test-pre.jpg)   
 
