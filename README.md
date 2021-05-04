@@ -9,11 +9,11 @@ Aled Garfield Photography is a small independent photography business specialisi
 ## __Table of Contents__
 1. [About the Business](#about-the-business)
 2. [User Experience](#user-experience)
-   - ### User objectives
-   - ### User Stories
-   - ### Owner Objectives
-   - ### Design Objectives
-   - ### UX Design Goals
+   - [User Objectives](#user-objectives)
+   - [User Stories](#user-stories)
+   - [Owner Objectives](#owner-objectives)
+   - [Design Objectives](#design-objectives)
+   - [UX Design Goals](#ux-design-goals)
 3. [Layout and Features](#layout-and-features)
 4. [Wireframes](#wireframes)
 5. [Features left to implement](#features-left-to-implement)
@@ -22,7 +22,7 @@ Aled Garfield Photography is a small independent photography business specialisi
 8. [Deployment](#deployment)
 9. [Bugs](#bugs)
 10. [Credits](#credits)
-11. [Content](#content)
+11. [Media and Content](#media-and-content)
 
 ## About the Business
 
@@ -34,7 +34,7 @@ As the sole photographer and therefore the ‘face’ of the business, the amoun
 
 Here I will address the aims and goals of the website from both the perspectives of the users and of the business owner. I will also adress how user experience is key to the design of the website.
 
-### User objectives
+### User Objectives
 
 *	Allows users to see examples of the photographers work through a series of image galleries.
 
@@ -230,7 +230,7 @@ Details of any bugs encountered and tetsting results are contained in the separa
 * Fonts [Google Fonts](https://fonts.google.com/)
 * Icons [Font Aesome](https://fontawesome.com/)
 
-## Content/Media/Acknowledgements
+## Media and Content
 
 * All content and images supplied by and copyright of Aled Garfield Photography Ltd
 * As Featured Badges courtesy of 
