@@ -1,5 +1,7 @@
 # Aled Garfield Photography - Testing 
 
+[README.md](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/README.md)
+
 I have tested my site to ensure that it achieves the intended aims of the owner and the expectations of the users by meeting the user stories detailed in the [README.md](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/README.md). I have also manually tested my site across a number of different devices and browsers to ensure that the design, layout and functionality respond as intended. In addition the validity of my HTML and CSS have been checked using the [W3C Markup](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/). Finally I have used ]Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools to test the accessibility and performance of my site. The specific tests and results are detailed below:
 
 ## User Stories
@@ -47,9 +49,6 @@ I have tested my site to ensure that it achieves the intended aims of the owner 
 -	Contact page contains a form enabling users to contact the photographer directly
 -	Contact page is linked to from each page
 
-
-
-
 ## Manual Testing
 
 ### Internal Links
@@ -81,7 +80,6 @@ __Result__– The result was as expected.
 
 * __Test__– When clicked the Click Me button on the 404 page should link back to the Home page and open within the existing browser window.  
 __Result__– The result was as expected.
-
 
 #### Does the internal link in the Footer section perform as expected and link to the correct page area and open within the existing browser window?
 
@@ -116,14 +114,13 @@ __Result__– The result was as expected.
 * __Test__– When clicked the Pinterest Icon in the Footer section should link to the Aled Garfield Pinterest page and should open a new browser window.  
 __Result__– The result was as expected.
 
-#### Does the 404 page function as expected ?
+#### Does the 404 page function as expected?
 
 * __Test__– The 404 page loads when a link is broken or a page cannot be reached.
 __Result__– The result was as expected.
 
 * __Test__– The 404 page responds as expected across different browser sizes.
 __Result__– The result was as expected.
-
 
 ### Hover Function
 
@@ -348,8 +345,6 @@ __Result__– The result was as expected.
 * __Test__– The navigation bar should appear as expected; the brand logo is on the left, and the navigation links are laid out on the right. The spacing of the items is consistent with the intended design.  
 __Result__– The result was as expected.
 
-
-
 #### Page Footer
 
 * __Test__– The page footer appears as expected, with the featured badges and social media Icons in four columns. The copyright text appears on the bottom left and the ‘back to top’ link is on the right.  
@@ -401,7 +396,6 @@ __Result__– The result was as expected.
 
 * __Test__– The Contact Form Takes up 50% of the screen width.  
 __Result__– The result was as expected.
-
 
 ### Extra Large
 
@@ -455,7 +449,6 @@ __Result__– The result was as expected.
 
 * __Test__– The layout appears as expected; the sections stack appropriately on top of each other with adequate spacing.  
 __Result__– The result was as expected.
-
 
 * __Test__– All images render correctly and maintain their original ratio with no distortion  
 __Result__– The result was as expected.
@@ -529,7 +522,9 @@ Following these changes I re-ran the Lighthouse tests and the improved scores ca
 
 ![Lighthouse screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/lighthouse-test-post.jpg)
 
-## Test Results/Issues/Bugs
+## Test Results and Bugs
+
+The majority of the errors and bugs I came across are noted below and were addressed during the development phase. The main issue I discovered as a result of my testing was that some of the images on the home page were being stretched out (see no 4. below)
 
 1. Content overflowing the parent container on the homepage intro section.
 ![bug screenshot 1](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug1.jpg)
