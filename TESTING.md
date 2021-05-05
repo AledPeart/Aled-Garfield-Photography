@@ -1,6 +1,8 @@
 # Aled Garfield Photography - Testing 
 
-I have tested my site to ensure that it achieves the intended aims of the owner and the expectations of the users by meeting the user stories detailed in the [README.md](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/README.md). I have also manually tested my site across a number of different devices and browsers to ensure that the design, layout and functionality respond as intended. In addition the validity of my HTML and CSS have been checked using the [W3C Markup](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/). Finally I have used ]Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools to test the accessibility and performance of my site. The specific tests and results are detailed below:
+[README.md](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/README.md)
+
+I have tested my site to ensure that it achieves the intended aims of the owner and the expectations of the users by meeting the user stories detailed in the [README.md](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/README.md). I have also manually tested my site across a number of different devices and browsers to ensure that the design, layout and functionality respond as intended. In addition the validity of my HTML and CSS have been checked using the [W3C Markup](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/). Finally I have used [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools to test the accessibility and performance of my site. The specific tests and results are detailed below:
 
 ## User Stories
 
@@ -47,9 +49,6 @@ I have tested my site to ensure that it achieves the intended aims of the owner 
 -	Contact page contains a form enabling users to contact the photographer directly
 -	Contact page is linked to from each page
 
-
-
-
 ## Manual Testing
 
 ### Internal Links
@@ -81,7 +80,6 @@ __Result__– The result was as expected.
 
 * __Test__– When clicked the Click Me button on the 404 page should link back to the Home page and open within the existing browser window.  
 __Result__– The result was as expected.
-
 
 #### Does the internal link in the Footer section perform as expected and link to the correct page area and open within the existing browser window?
 
@@ -116,14 +114,13 @@ __Result__– The result was as expected.
 * __Test__– When clicked the Pinterest Icon in the Footer section should link to the Aled Garfield Pinterest page and should open a new browser window.  
 __Result__– The result was as expected.
 
-#### Does the 404 page function as expected ?
+#### Does the 404 page function as expected?
 
 * __Test__– The 404 page loads when a link is broken or a page cannot be reached.
 __Result__– The result was as expected.
 
 * __Test__– The 404 page responds as expected across different browser sizes.
 __Result__– The result was as expected.
-
 
 ### Hover Function
 
@@ -348,8 +345,6 @@ __Result__– The result was as expected.
 * __Test__– The navigation bar should appear as expected; the brand logo is on the left, and the navigation links are laid out on the right. The spacing of the items is consistent with the intended design.  
 __Result__– The result was as expected.
 
-
-
 #### Page Footer
 
 * __Test__– The page footer appears as expected, with the featured badges and social media Icons in four columns. The copyright text appears on the bottom left and the ‘back to top’ link is on the right.  
@@ -401,7 +396,6 @@ __Result__– The result was as expected.
 
 * __Test__– The Contact Form Takes up 50% of the screen width.  
 __Result__– The result was as expected.
-
 
 ### Extra Large
 
@@ -456,7 +450,6 @@ __Result__– The result was as expected.
 * __Test__– The layout appears as expected; the sections stack appropriately on top of each other with adequate spacing.  
 __Result__– The result was as expected.
 
-
 * __Test__– All images render correctly and maintain their original ratio with no distortion  
 __Result__– The result was as expected.
 
@@ -473,33 +466,33 @@ To further ensure my site was functioning as expected I have tested it across di
 *	Tablet
 *	Mobile device
 
-I followed the testing criterias that I have detailed above for my Manual Testing, but I have not detailed the results of the tests in full detail here as I feel it would prove too lengthy for it’s intended purpose. I have however summarised the results and the issues encountered below:
+I followed the same testing criterias that I used for my Manual Testing, but I have not detailed the results of the tests in full here as I feel it would prove too lengthy for it’s intended purpose. I have however summarised the results and the issues encountered below:
 
 ### Large Screen Desktop
 
-__Firefox__ – Hover function not working correctly on the ‘as featured’ badges   
-__Safari__ – external links open in a new window rather than in a new tab.
+__Firefox__ – No issues found   
+__Safari__ – No issues found 
 
 ### Laptop
 
-__Firefox__ – no issues found 
+__Firefox__ – No issues found 
 __Safari__ – 3 portfolio images on the homepage appeared vertically stretched
 
 ### Tablet 
 
-__Firefox__ – Hompepage images distorted when tablet held in landscape mode  
-__Safari__ - Hompepage images distorted when tablet held in landscape mode
+__Firefox__ – No issues found   
+__Safari__ - 3 portfolio images on the homepage appeared vertically stretched
 
 ### Mobile 
 
-__Firefox__ – no issues found  
+__Firefox__ – No issues found  
 __Safari__ – I asked a friend who has an  I-phone to go through the site for me, he also reported that the 3 portfolio images on the homepage appeared vertically stretched.
 
 
 ## HTML and CSS Validation
 
-While developing I have regularly validated ny HTML and CSS using [W3C Markup](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/).  
-Errors and Warnings that were highlited to me that I addressed during the project were:
+While developing I have regularly validated my HTML and CSS using [W3C Markup](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/).  
+Errors and Warnings that were highlighted to me that I addressed during the project were:
 * Image filenames containing capitals
 * Missing closing </div> tags
 * __section__ tags that did not have an __h1__ or an __h2__ as a direct child
@@ -507,29 +500,31 @@ Errors and Warnings that were highlited to me that I addressed during the projec
 
 At the time of submission the results are showing no errors (see screenshots below)
 
-[index.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-check-index.png)  
-[portfolio.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-check-portfolio.png)  
-[about.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-check-about.png)  
-[contact.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-check-contact.png)  
-[style.css](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-check-css.png)
+![index.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-index.png)  
+![portfolio.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-portfolio.png)  
+![about.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-about.png)  
+![contact.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-contact.png)  
+![style.css](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-css.png)
 
 ## Lighthouse Testing
 
-I have used Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools to test the accessibility and performance of my site. The initial test gave me the following results:   
+I have used [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools to test the accessibility and performance of my site. The initial test gave me the following results:   
 
 ![Lighthouse screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/lighthouse-test-pre.jpg)   
 
-I implemented the following reccomendations made in the report:
-1. Changing the colour of the text in the testemonial section of the homepage to increease the conrast and improve accesibility.
-2. Ammending the sub-heading on the introduction section on the homepage from a __h3__ to a __h2__ to improve the semantics of my HTML.
-3. Adding __rel="noopener"__ to the all external links across the site to reduce the site's vunerability.
-4. Adding a __meta description__ tag to the __<head>__ element of each page to imnprove my SEO.
+I implemented the following recommendations made in the report:
+1. Changing the colour of the text in the testimonial section of the homepage to increase the contrast and improve accessibility.
+2. Amending the sub-heading on the introduction section on the homepage from a __h3__ to a __h2__ to improve the semantics of my HTML.
+3. Adding __rel="noopener"__ to all external links across the site to reduce the site's  vulnerability.
+4. Adding a __meta description__ tag to the __<head>__ element of each page to improve my SEO.
 
 Following these changes I re-ran the Lighthouse tests and the improved scores can be seen below   
 
 ![Lighthouse screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/lighthouse-test-post.jpg)
 
-## Test Results/Issues/Bugs
+## Test Results and Bugs
+
+The majority of the errors and bugs I came across are noted below and were addressed during the development phase. The main issue I discovered as a result of my testing was that some of the images on the home page were being stretched out (see no 4. below)
 
 1. Content overflowing the parent container on the homepage intro section.
 ![bug screenshot 1](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug1.jpg)
@@ -542,11 +537,11 @@ The above issue was being caused by the word 'photography' which at the given fo
     }
 } 
 ```
-2. Gallery images not displaying properly on the portfolio page. The aim on this page was to achieve a clean, tiled gallery, with the images nicely aligned and the margins consistent, to give the user a pleasimg viewing experience.  I could not get the images to align properly and the margins were not equally spaced, after some time trying to figure this out I rrealised that the solution here was to re-size the images (portrait and landscape) in Photoshop to the exact same withs. This gave me the result I was aiming for.
+2. Gallery images not displaying properly on the portfolio page. The aim on this page was to achieve a clean, tiled gallery, with the images nicely aligned and the margins consistent, to give the user a pleasing viewing experience.  I could not get the images to align properly and the margins were not equally spaced, after some time trying to figure this out I realised that the solution here was to re-size the images (portrait and landscape) in Photoshop to the exact same widths. This gave me the result I was aiming for.
 
 3. Horizontal page scroll and Footer margin issues. 
 ![bug screenshot 3](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug3.jpg)
-I was getting a lot of horizontal movement on my site, particularly at smaller screen sizes. The contents would jump left and right, and was clearly not right. On a seperate but seemingly linked issue, my footer was displaying a right hand margin which should not have been there I spend a lot of time investigating this issue on DevTools, but as much as i tried I could not isolate what was casuing it. I spoke to my mentor, who confirmed that there was nothing aparent or obviuos causing the issue. In the end I found somebody else with a very similar issue on a post in [Stack Overflow](https://stackoverflow.com/questions/23768152/using-container-fluid-within-bootstrap-cause-horizontal-scrollbar) There were a number of suggestions, but one which worked on my site was suggested by @Viktor L which was to set the left and right margins for all rows to 0:
+I was getting a lot of horizontal movement on my site, particularly at smaller screen sizes. The contents would jump left and right, and was clearly not right. On a separate but seemingly linked issue, my footer was displaying a right hand margin which should not have been there I spend a lot of time investigating this issue on DevTools, but as much as i tried I could not isolate what was causing it. I spoke to my mentor, who confirmed that there was nothing apparent or obvious causing the issue. In the end I found somebody else with a very similar issue on a post in [Stack Overflow](https://stackoverflow.com/questions/23768152/using-container-fluid-within-bootstrap-cause-horizontal-scrollbar) There were a number of suggestions, but one which worked on my site was suggested by @Viktor L which was to set the left and right margins for all rows to 0:
 
 ```css
 .row {
@@ -554,9 +549,9 @@ I was getting a lot of horizontal movement on my site, particularly at smaller s
   margin-right: 0;
 }
 ```
-4. Images stretching horizontally on Iphone/Ipad.
+4. Images stretching horizontally on iphone/ipad.
 ![bug screenshot 4](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug4.jpg)
-When my site was viewed in safari on an Ipad and an Iphone, the images in the portfolio section of the homepage appeared to be stretching out vertically. When testing in Chrome DevTools and on physical devices using the Chrome browser the issue did not appear, and the images scaled to fit the screen appropriately. I tried to fix the issue using Bootstrap's 'image-fluid' class. I was unable to resolve this by myself, but after some investigating I found a solution on [Stack Overflow](https://stackoverflow.com/questions/57516373/image-stretching-in-flexbox-in-safari). Credit to @Michael_B for the following snippet which addressed the issue:
+When my site was viewed in safari on an ipad and an iphone, the images in the portfolio section of the homepage appeared to be stretching out vertically. When testing in Chrome DevTools and on physical devices using the Chrome browser the issue did not appear, and the images scaled to fit the screen appropriately. I tried to fix the issue using Bootstrap's 'image-fluid' class. I was unable to resolve this by myself, but after some investigating I found a solution on [Stack Overflow](https://stackoverflow.com/questions/57516373/image-stretching-in-flexbox-in-safari). Credit to @Michael_B for the following snippet which addressed the issue:
 
 ```
 portfolio-image-div {
@@ -567,7 +562,7 @@ According to users on that thread, this is a common bug whereby Safari will stre
 
 5. Footer text being pushed into the margin. At medium screen resolutions the 'copyright' footer text was being pushed into the bottom left of the screen, causing some of it to be lost.
 ![bug screenshot 5](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug5.jpg)
-I was able to resolve this issue by writing the folowing media query:
+I was able to resolve this issue by writing the following media query:
 ```
 @media screen and (min-width: 768px) {
     .copyright-footer-text {

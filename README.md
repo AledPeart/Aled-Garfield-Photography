@@ -4,19 +4,37 @@
 
 # Aled Garfield Photography
 
-Aled Garfield Photography is a small independent photography business specialising in wedding and family portrait photography. The purpose of this project is to build a new static frontend website for the business, in order to showcase the photographers work, generate customer enquiries and thereby facilitate further growth.
+Aled Garfield Photography is a small independent photography business specialising in wedding and family portrait photography. The purpose of this project is to build a new static frontend website for the business, in order to showcase the photographer's work, generate customer enquiries and thereby facilitate further growth.
+
+## __Table of Contents__
+1. [About the Business](#about-the-business)
+2. [User Experience](#user-experience)
+   - [User Objectives](#user-objectives)
+   - [User Stories](#user-stories)
+   - [Owner Objectives](#owner-objectives)
+   - [Design Objectives](#design-objectives)
+   - [UX Design Goals](#ux-design-goals)
+3. [Layout and Features](#layout-and-features)
+4. [Wireframes](#wireframes)
+5. [Features left to implement](#features-left-to-implement)
+6. [Technologies Used](#technologies-used)
+7. [Testing](#testing)
+8. [Deployment](#deployment)
+9. [Bugs](#bugs)
+10. [Credits](#credits)
+11. [Media and Content](#media-and-content)
 
 ## About the Business
 
 I established Aled Garfield Photography in 2012, and it has grown steadily since. The business specializes in wedding and family portrait photography. The photographic style is very laid back and informal and the aim is to capture people naturally in a ‘documentary’ style rather than in a posed or forced fashion. This is key to the business’ brand and the aim is to provide a very relaxed and unique experience to customers on their wedding day or at their portrait session. 
-As the sole photographer and therefore the ‘face’ of the business, the amount of work I can take on is limited and so generating enquiries from the right type of customers whose vision and expectations align with what I can offer them, is more important than generating a high volume of enquiries. This approach leads to an increased level of customer satisfaction, and a greater chance of referrals and repeat business, which for a small enterprise is hugely important. The role of a new website will be crucial in achieving these aims. The style of photography and brand ethos will be communicated to users through the use of strong showcase images and reinforced throughout the site using clean simple design, elegant, muted color palettes and consistent styling. Key information on pricing, style and ethos will be clearly communicated in text, while the layout will provide a positive user experience and guide users through the key areas of the website. Ultimately users whose needs are met by what is on offer will be lead to make contact through the websites contact form.
+As the sole photographer and therefore the ‘face’ of the business, the amount of work I can take on is limited and so generating enquiries from the right type of customers whose vision and expectations align with what I can offer them, is more important than generating a high volume of enquiries. This approach leads to an increased level of customer satisfaction, and a greater chance of referrals and repeat business, which for a small enterprise is hugely important. The role of a new website will be crucial in achieving these aims. The style of photography and brand ethos will be communicated to users through the use of strong showcase images and reinforced throughout the site using clean simple design, elegant, muted color palettes and consistent styling. Key information on pricing, style and ethos will be clearly communicated in text, while the layout will provide a positive user experience and guide users through the key areas of the website. Ultimately users whose needs are met by what is on offer will be lead to make contact through the website's contact form.
 
 
-## User Expreience
+## User Experience
 
-Here I will address the aims and goals of the website from both the perspectives of the users and of the business owner. I will also 
+Here I will address the aims and goals of the website from both the perspectives of the users and of the business owner. I will also adress how user experience is key to the design of the website.
 
-### User objectives
+### User Objectives
 
 *	Allows users to see examples of the photographers work through a series of image galleries.
 
@@ -32,7 +50,23 @@ Here I will address the aims and goals of the website from both the perspectives
 
 *	Include a section where a wedding photography contract can be downloaded.
 
+### User Stories
 
+* As a potential customer visiting the website I want a pleasant user experience and be able to navigate around the site easily. End user goal: Receive a positive user experience and easily navigate the site to receive the information I need. End business goal: Guide the user gently through the site, leading them towards making contact. Measurement of success: Increased percentage of visitors to the site making direct contact.
+
+* As a potential customer visiting the website I want to see the information presented in a clear concise and logical way. End user goal: Receive the information I need quickly and easily. End business goal: Present information to potential customers clearly and concisely. Measurement of success: Increased percentage of visitors to the site making contact.
+
+* As a potential customer visiting the website I want to hear about other people’s experiences of working with the photographer. End user goal: Learn about other people’s experiences of working with the photographer. End business goal: Highlight to potential customer’s the positive experiences of previous customer’s. Measurement of success: Re-assure customers of the quality of service offered encouraging them to make direct contact.
+
+* As a potential customer visiting the website I want to see examples of the photographers best work so that I can decide if I would like to hire them to photograph my wedding. End user goal: Decide if the photographer’s portfolio meets my own expectations. End business goal: Showcase the best work to potential customers ultimately increasing sales through increased customer contacts. Measurement of success: Increased percentage of visitors to the site making direct contact.
+
+* As a potential customer visiting the website I want to learn more about the style of photography offered. End user goal: Decide if the photographer’s style is a good fit for me. End business goal: Ensure that customers who make contact are aware of the style of photography on offer. Measurement of success: Increased conversion from contacts made to bookings secured.
+
+* As a potential customer visiting the website I want to learn more about the photographer. End user goal: Decide if the photographer’s vision and personality align with my own. End business goal: Ensure that customers who make contact are a good fit to work with the photographer. Measurement of success: Increased customer satisfaction and increased repeat and recommendation business.
+
+* As a potential customer visiting the website I want to be able to easily view the photographers social media channels. End user goal: Learn more about the photographer and their work, access wedding photography related inspiration and content. End business goal: Increase social media following and exposure. Measurement of success: Increased levels of social media engagement.
+
+* As a potential customer visiting the website I want to be able to easily contact the photographer. End user goal: send the photographer a direct message through the website. End business goal: Ensure that customers are able to make contact directly with the photographer. Measurement of success: Increased enquiries leading to an increase in bookings secured.
 
 ### Owner Objectives
 
@@ -53,41 +87,23 @@ Here I will address the aims and goals of the website from both the perspectives
 *	Using good design and a well-planned layout to guide users through the site and to generate customer ‘contacts’ via the contact form, leading to increased bookings/sales.
 
 
-### User Stories
-
-* As a potential customer visiting the website I want a pleasant user experience and be able to navigate around the site easily. End user goal: Receive a positive user experience and easily navigate the site to receive the information I need. End business goal: Guide the user gently through the site, leading them towards making contact. Measurement of success: Increased percentage of visitors to the site making direct contact.
-
-* As a potential customer visiting the website I want to see the information presented in a clear concise and logical way. End user goal: Receive the information I need quickly and easily. End business goal: Present information to potential customers clearly and concisely. Measurement of success: Increased percentage of visitors to the site making contact.
-
-* As a potential customer visiting the website I want to hear about other people’s experiences of working with the photographer. End user goal: Learn about other people’s experiences of working with the photographer. End business goal: Highlight to potential customer’s the positive experiences of previous customer’s. Measurement of success: Re-assure customers of the quality of service offered encouraging them to make direct contact.
-
-* As a potential customer visiting the website I want to see examples of the photographers best work so that I can decide if I would like to hire them to photograph my wedding. End user goal: Decide if the photographer’s portfolio meets my own expectations. End business goal: Showcase the best work to potential customers ultimately increasing sales through increased customer contacts. Measurement of success: Increased percentage of visitors to the site making direct contact.
-
-* As a potential customer visiting the website I want to learn more about the style of photography offered. End user goal: Decide if the photographer’s style is a good fit for me. End business goal: Ensure that customers who make contact are aware of the style of photography on offer. Measurement of success: Increased conversion from contacts made to bookings secured.
-
-* As a potential customer visiting the website I want to learn more about the photographer. End user goal: Decide if the photographer’s vision and personality align with my own. End business goal: Ensure that customers who make contact are a good fit to work with the photographer. Measurement of success: Increased customer satisfaction and increased repeat and recommendation business.
-
-* As a potential customer visiting the website I want to be able to easily view the photographers social media channels. End user goal: Learn more about the photographer and their work, access wedding photography related inspiration and content. End business goal: Increase social media following and exposure. Measurement of success: Increased levels of social media engagement.
-
-* As a potential customer visiting the website I want to be able to easily contact the photographer. End user goal: send the photographer a direct message through the website. End business goal: Ensure that customers are able to make contact directly with the photographer. Measurement of success: Increased enquiries leading to an increase in bookings secured.
-
 ### Design Objectives
 
 *	Clean, simple, uncluttered design.
 
 *	Clearly defined sections – visually pleasing.
 
-*	Clear navigation and site organisation (use of dropdown menus to keep design clean)
+*	Clear navigation and site organisation (use of dropdown menus on mobile devices to keep design clean)
 
 *	Strong ‘showcase’ images to draw you in.
 
-*	Clearly defined galleries, showcasing photographer’s best work.
+*	Dedicated gallery, showcasing photographer’s best work.
 
-*	Colour – Light, white, pastel and muted colours to create a feeling of calm, serenity and elegance. 
+*	Colour – Light, white, grey and muted colours to create a feeling of calm, serenity and elegance. 
 
 *	Consistent design – use the ‘rule of thirds’
 
-*	Consistent styling – fonts, header, footer, logo, buttons icons – create a pleasant experience and a sense of ‘flow’
+*	Consistent styling – fonts, header, footer, logo, buttons, icons – create a pleasant experience and a sense of ‘flow’
 
 *	Design to be consistent with the business’ brand – laid back, non formal, non traditional, documentary/candid images.
 
@@ -102,17 +118,17 @@ Here I will address the aims and goals of the website from both the perspectives
 
 *	Design adheres to current norms and conventions e.g navbar/footer at the top/bottom of each page, clear navigation labels.
 
-## Layout/Structure/Features
+## Layout and Features
 
-All pages will have the same basic structure, namely a navigation bar at the top of each page, and a footer area at the bottom of each page. 
+* All pages will have the same basic structure, namely a navigation bar at the top of each page, and a footer area at the bottom of each page. 
 
-The navigation bar will be clean, clear and simple, providing users with a means to navigate quickly between the different pages of the site, it will also display the businesses’ brand logo, which will link back to the homepage. It will be fully responsive and will reduce to a ‘hamburger’ dropdown menu on smaller devices (see wireframes)
+* The navigation bar will be clean, clear and simple, providing users with a means to navigate quickly between the different pages of the site, it will also display the businesses’ brand logo, which will link back to the homepage. It will be fully responsive and will reduce to a ‘hamburger’ dropdown menu on smaller devices (see wireframes)
 
-The footer area will contain copyright information, links to social media pages and a button-link so that users can easily return to the top of the page, and to the main site navigation links. The footer area on each page will also contain a ‘As featured on’ section, which will have badges that link to popular wedding blogs that have featured the photographers work.  
+* The footer area will contain copyright information, links to social media pages and a link so that users can easily return to the top of the page, and to the main site navigation links. The footer area on each page will also contain a ‘As featured on’ section, which will have badges that link to popular wedding blogs that have featured the photographers work.  
 
-The landing/home page will be split into a series of clearly defined sections that the user can scroll through, which will highlight the features of the site, a kind of ‘visual menu’ from which the user can choose to explore the site.
+* The landing/home page will be split into a series of clearly defined sections that the user can scroll through, which will highlight the features of the site, a kind of ‘visual menu’ from which the user can choose to explore the site.
 
-The first thing users will see is a full-width image just below the page header, which encapsulates the ethos of the business’ brand, and instantly familiarises users with the style and quality of the photography. Below the images will be some headline text and a paragraph which introduces the user to the site. Underneath this will be a portfolio section showing 3 further images and a link to the 'portfolio' page. This will be followed by a short 'about me' section and link so that users can learn more. (*either an expanding link or a link into a separate page if necessary*). This will be followed by a testimonial section, containing some quotes from past customers. Finally at the bottom of the landing page there will be a contact me section which will link to the 'contact' page, where users can complete a contact form in order to make contact with the photographer.
+The first thing users will see is a full-width image just below the page header, which encapsulates the ethos of the business’ brand, and instantly familiarises users with the style and quality of the photography. Below the images will be some headline text and a paragraph which introduces the user to the site. Underneath this will be a portfolio section showing 3 further images and a link to the 'portfolio' page. This will be followed by a short 'about me' section and link so that users can learn more. This will be followed by a testimonial section, containing some quotes from past customers. Finally at the bottom of the landing page there will be a contact me section which will link to the 'contact' page, where users can complete a contact form in order to make contact with the photographer.
 
 The pages, linked from the navigation bar and from the main page where applicable will be:
 
@@ -124,11 +140,15 @@ The pages, linked from the navigation bar and from the main page where applicabl
 
 
 ## Wireframes 
+![AGP wireframe](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/wireframes/wireframe-screen-shot)   
+
+To view the wireframes in full please click below:
+
 [Detailed mock-ups](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/tree/master/wireframes/wireframe%20-%20detailed)
 
 [Initial sketches](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/tree/master/Wireframes/wireframe%20-%20Initial%20sketches)
 
-## Features Left to implement
+## Features left to implement
 
 * A ‘blog’ section, which will display posts with a series of images from individual weddings/portrait sessions.
 
@@ -142,6 +162,8 @@ The pages, linked from the navigation bar and from the main page where applicabl
 
 * HTML 5 – page content and structure
 * CSS3 – Styling
+* [JQuery](https://jquery.com/) - Responsive navigation bar
+* [Popper.js](https://popper.js.org/) - Responsive navigation bar
 * [Bootstrap](https://getbootstrap.com/) (v4.3.1) – Navigation bar, page layout and responsive design.
 * [Git](https://git-scm.com/) - Version control tracking
 * [Github](https://github.com/) - Project hosting
@@ -156,7 +178,7 @@ The pages, linked from the navigation bar and from the main page where applicabl
 
 
 ## Testing
-You can view my seperate TESTING.md file [here](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/TESTING.md)
+You can view my separate TESTING.md file [here](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/TESTING.md)
 
 
 
@@ -191,7 +213,7 @@ Full details of these summarised steps can be found [here](https://docs.github.c
 
 ## Bugs
 
-Details of any bugs encountered and etsting results are contained in the seperate TESTING.md file [here](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/TESTING.md)
+Details of any bugs encountered and tetsting results are contained in the separate TESTING.md file [here](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/TESTING.md)
 
 
 ## Credits
@@ -199,7 +221,7 @@ Details of any bugs encountered and etsting results are contained in the seperat
 * This project was created from a [Code Institute](https://codeinstitute.net/) student template
 * Gallery layout code was borrowed from the 'Love Running' tutorial video from [Code Institute](https://codeinstitute.net/)
 * Code borrowed from the [App Brewery](https://www.appbrewery.co) used to style the horizontal rules.
-* [Bootstrap](https://getbootstrap.com/) Components used for the navigation bar, form, and the Bootstrap Grid system used to streamline layouts and responsive design.
+* [Bootstrap](https://getbootstrap.com/) Components used for the navigation bar, form, and the Bootstrap Grid system was used to streamline layouts and responsive design.
 * Ideas and knowledge gleamed from 
   * [W3 Schools](https://www.w3schools.com/)
   * [CSS-Tricks](https://css-tricks.com/)
@@ -208,9 +230,9 @@ Details of any bugs encountered and etsting results are contained in the seperat
 * Fonts [Google Fonts](https://fonts.google.com/)
 * Icons [Font Aesome](https://fontawesome.com/)
 
-## Content/Media/Acknowledgements
+## Media and Content
 
-* All images supplied by and copyright of Aled Garfield Photography Ltd
+* All content and images supplied by and copyright of Aled Garfield Photography Ltd
 * As Featured Badges courtesy of 
   * [Love My Dress](https://www.lovemydress.net/) 
   * [Whimsical Wonderland Weddings](https://whimsicalwonderlandweddings.com/) 
