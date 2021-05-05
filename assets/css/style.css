@@ -410,6 +410,19 @@ textarea {
     font-weight: 200;
 }
 
+/* following media queries to reduce font size on smaller devices to prevent the text from over-spilling the div */
+@media screen and (max-width: 400px) {
+    .about-text-h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .about-text-h1 {
+        font-size: 50px;
+    }
+}
+
 .about-text-h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
