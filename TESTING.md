@@ -6,7 +6,8 @@ I have tested my site to ensure that it achieves the intended aims of the owner 
 
 ## User Stories
 
- **As a potential customer visiting the website I want a pleasant user experience and be able to navigate around the site easily**. 
+ **As a potential customer visiting the website I want a pleasant user experience and be able to navigate around the site easily**.    
+ ![supporting screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/navigation.jpg)    
 -	Clear Navigation bar with easily accessible links
 -	Brand logo always links back to the homepage
 -	Navigation bar remais fixed at the top of the page for easy user access.
@@ -15,17 +16,21 @@ I have tested my site to ensure that it achieves the intended aims of the owner 
 -	Layout is uncluttered and visually pleasing
 -	Images used with text content to provide a visual component
 
-**As a potential customer visiting the website I want to see the information presented in a clear concise and logical way**. 
+**As a potential customer visiting the website I want to see the information presented in a clear concise and logical way**.    
+ ![supporting screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/layout.jpg)
 -	Clear Navigation bar with easily accessible links
 -	Content is kept concise and separated into visually distinct blocks containing key information
 -	Layout is uncluttered and visually pleasing
 
-**As a potential customer visiting the website I want to hear about other people’s experiences of working with the photographer**. 
+**As a potential customer visiting the website I want to hear about other people’s experiences of working with the photographer**.    
+ ![supporting screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/kind-words.jpg)
 
 -	Testimonial section on the Home page highlights past customer’s positive experiences
 
 
 **As a potential customer visiting the website I want to see examples of the photographers best work so that I can decide if I would like to hire them to photograph my wedding**. 
+
+ ![supporting screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/portfolio.jpg)
 
 -	Portfolio page containing a gallery of the photographers work
 -	‘Hero’ image on the homepage, and selected image in the ‘view my portfolio section’
@@ -33,7 +38,9 @@ I have tested my site to ensure that it achieves the intended aims of the owner 
 
 **As a potential customer visiting the website I want to learn more about the style of photography offered**. 
 
--	About-Me page contains a detailed description of the photographer’s style and approach
+-	About-Me page contains a detailed description of the photographer’s style and approach   
+
+![supporting screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/about-me.jpg)
 
 
 **As a potential customer visiting the website I want to learn more about the photographer**. 
@@ -43,12 +50,16 @@ I have tested my site to ensure that it achieves the intended aims of the owner 
 
 **As a potential customer visiting the website I want to be able to easily view the photographers social media channels**. 
 
+![supporting screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/social-media.jpg)
+
 -	Social media channels are linked via recognisable visual icons in the footer
 
 
 **As a potential customer visiting the website I want to be able to easily contact the photographer**. 
 -	Contact page contains a form enabling users to contact the photographer directly
--	Contact page is linked to from each page
+-	Contact page is linked to from each page   
+
+![supporting screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/contact-me.jpg)
 
 ## Manual Testing
 
