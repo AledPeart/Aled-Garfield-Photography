@@ -122,7 +122,7 @@ Here I will address the aims and goals of the website from both the perspectives
 
 * All pages will have the same basic structure, namely a navigation bar at the top of each page, and a footer area at the bottom of each page. 
 
-* The navigation bar will be clean, clear and simple, providing users with a means to navigate quickly between the different pages of the site, it will also display the businesses’ brand logo, which will link back to the homepage. It will be fully responsive and will reduce to a ‘hamburger’ dropdown menu on smaller devices (see wireframes)
+* The navigation bar will be clean, clear and simple, providing users with a means to navigate quickly between the different pages of the site, it will also display the businesses’ brand logo, which will link back to the homepage. It will be fully responsive and will reduce to a ‘hamburger’ dropdown menu on smaller devices (see wireframes). It will also stick to the top of the page so that users (particularly on mobile devices) are not required to scroll back to the top of the page manually.
 
 * The footer area will contain copyright information, links to social media pages and a link so that users can easily return to the top of the page, and to the main site navigation links. The footer area on each page will also contain a ‘As featured on’ section, which will have badges that link to popular wedding blogs that have featured the photographers work.  
 
