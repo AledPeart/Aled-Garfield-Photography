@@ -9,6 +9,7 @@ I have tested my site to ensure that it achieves the intended aims of the owner 
  **As a potential customer visiting the website I want a pleasant user experience and be able to navigate around the site easily**. 
 -	Clear Navigation bar with easily accessible links
 -	Brand logo always links back to the homepage
+-	Navigation bar remais fixed at the top of the page for easy user access.
 -	Link buttons in the subsections guide the user through the site
 -	Footer link allows the users to return to the top of each page without needing to scroll.
 -	Layout is uncluttered and visually pleasing
@@ -120,6 +121,11 @@ __Result__– The result was as expected.
 __Result__– The result was as expected.
 
 * __Test__– The 404 page responds as expected across different browser sizes.
+__Result__– The result was as expected.
+
+#### Does the 'sticky' Navigation Bar remain fixed to the top of the screen when scrolling across all screen sizes? 
+
+* __Test__– When scrolling the Navigation Bar remains fixed to the top of the screen.  
 __Result__– The result was as expected.
 
 ### Hover Function
