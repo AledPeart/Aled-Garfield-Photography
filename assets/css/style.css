@@ -1,4 +1,4 @@
-/* -----------special margin, padding, text, general/site-wide------------- */
+/* -----------General/site-wide------------- */
 
 .uppercase {
     text-transform: uppercase;
@@ -15,23 +15,17 @@
     margin-right: 0;
 }
 
-/* Credit - styling for these hr's borrowed from https://www.appbrewery.co/ */
-/* #hr-general {
-    color: #777;
-    border: none;
-    border-top: 10px dotted;
-    width: 3rem;
-    margin: 25px auto;
-} */
+/* Credit - styling for the hr's borrowed from https://www.appbrewery.co/ */
 
-#hr-general {
-    color: #777;
+.hr-general {
+    color: #ddd;
     border: none;
     border-top: 1px solid;
     width: 80%;
     margin: 25px auto;
-
 }
+
+/* following code used to ensure that content remains visible under the sticky navbar */
 
 body {
     padding-top: 40px;
@@ -54,13 +48,8 @@ body {
 .navbar {
     border-bottom: solid #ddd 1px;
     padding-bottom: 0;
-    margin: 0s;
+    margin: 0;
 }
-
-/* 
-#main-navbar {
-    background-color: transparent !important;
-} */
 
 #brand-logo {
     color: #777;
@@ -70,7 +59,7 @@ body {
     color: rgba(0, 0, 0, 0.7);
 }
 
-/* --------------Home Page---------------- */
+/* --------------HOME PAGE---------------- */
 
 
 /* --------------Intro Section---------------- */
@@ -79,7 +68,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     padding: 20px;
     max-height: 600px;
     display: block;
@@ -94,7 +82,6 @@ body {
 .intro-headline-row {
     min-height: 400px;
 }
-
 
 /* following media query to prevent the text from becoming too stretched out on larger screens */
 @media screen and (min-width: 992px) {
@@ -144,7 +131,6 @@ body {
         max-width: 80%;
     }
 }
-
 
 .hello {
     font-size: 25px;
@@ -233,11 +219,6 @@ body {
     }
 }
 
-
-/* not sure this is needed now .hp-testemonial {
-    margin-bottom: 25px 0px;
-} */
-
 .kind-words-h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -285,7 +266,7 @@ body {
 
 .contact-me-text p {
     font-family: 'Roboto', sans-serif;
-    font-size: 1 rem;
+    font-size: 1rem;
     font-weight: 300;
     line-height: 1.7;
     margin: 0 auto;
@@ -304,7 +285,7 @@ body {
     }
 }
 
-/* --------------Contact Me Page---------------- */
+/* --------------CONTACT ME PAGE---------------- */
 
 .contact-me-main-img {
     background-position: center;
@@ -324,7 +305,6 @@ body {
 }
 
 /* following media query to reduce the size of the form on larger screens */
-
 @media screen and (min-width: 768px) {
     .contact-form-body {
         max-width: 75%;
@@ -354,7 +334,6 @@ body {
 }
 
 /* following media query to center the text on larger screens */
-
 @media screen and (min-width: 992px) {
     .contact-form-p {
         margin: 0 25%;
@@ -370,7 +349,7 @@ textarea {
     margin: 5px;
 }
 
-/* --------------Portfolio Page---------------- */
+/* --------------PORTFOLIO PAGE---------------- */
 
 /* elements of the code to style the gallery borrowed from Code Institute's 'love running' project */
 
@@ -387,7 +366,6 @@ textarea {
 }
 
 /* following media query to ensure gallery columns reduce correctly (to one) on smaller devices */
-
 @media screen and (max-width: 768px) {
     #photo-gallery {
         column-count: 1;
@@ -398,7 +376,7 @@ textarea {
     margin-bottom: 15px;
 }
 
-/* --------------About Page---------------- */
+/* --------------ABOUT PAGE---------------- */
 
 .section-wrapper-about {
     margin-top: 50px;
@@ -453,7 +431,7 @@ textarea {
     padding-bottom: 30px;
 }
 
-/* --------------404 Page---------------- */
+/* --------------404 PAGE---------------- */
 
 .not-found-container {
     background-color: #f1f1f1;
@@ -471,7 +449,7 @@ textarea {
     font-size: 1.5rem;
 }
 
-/* --------------Footer---------------- */
+/* --------------FOOTER---------------- */
 
 /* following media query to stop the copyright text sitting to close to the bottom and left margins on viewports >768px */
 
@@ -491,8 +469,6 @@ textarea {
     font-size: 18px;
     font-weight: 300;
     text-transform: uppercase;
-
-
 }
 
 .copyright-footer-text {
