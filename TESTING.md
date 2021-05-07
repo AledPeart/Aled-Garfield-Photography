@@ -6,7 +6,7 @@ I have tested my site to ensure that it achieves the intended aims of the owner 
 
 ## User Stories
 
- **As a potential customer visiting the website I want a pleasant user experience and be able to navigate around the site easily**.  
+ ### **As a potential customer visiting the website I want a pleasant user experience and be able to navigate around the site easily**.  
  
  ![supporting screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/navigation.jpg) 
  
@@ -18,7 +18,7 @@ I have tested my site to ensure that it achieves the intended aims of the owner 
 -	Layout is uncluttered and visually pleasing
 -	Images used with text content to provide a visual component
 
-**As a potential customer visiting the website I want to see the information presented in a clear concise and logical way**.  
+### **As a potential customer visiting the website I want to see the information presented in a clear concise and logical way**.  
 
  ![supporting screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/layout.jpg)
  
@@ -26,14 +26,14 @@ I have tested my site to ensure that it achieves the intended aims of the owner 
 -	Content is kept concise and separated into visually distinct blocks containing key information
 -	Layout is uncluttered and visually pleasing
 
-**As a potential customer visiting the website I want to hear about other people’s experiences of working with the photographer**.   
+### **As a potential customer visiting the website I want to hear about other people’s experiences of working with the photographer**.   
 
  ![supporting screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/kind-words.jpg)
 
 -	Testimonial section on the Home page highlights past customer’s positive experiences
 
 
-**As a potential customer visiting the website I want to see examples of the photographers best work so that I can decide if I would like to hire them to photograph my wedding**. 
+ ### **As a potential customer visiting the website I want to see examples of the photographers best work so that I can decide if I would like to hire them to photograph my wedding**. 
 
  ![supporting screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/portfolio.jpg)
 
@@ -41,7 +41,7 @@ I have tested my site to ensure that it achieves the intended aims of the owner 
 -	‘Hero’ image on the homepage, and selected image in the ‘view my portfolio section’
 -	Links provided to social media accounts where more work can be viewed
 
-**As a potential customer visiting the website I want to learn more about the style of photography offered**. 
+ ### **As a potential customer visiting the website I want to learn more about the style of photography offered**. 
 
 ![supporting screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/about-me.jpg)
 
@@ -49,19 +49,19 @@ I have tested my site to ensure that it achieves the intended aims of the owner 
 
 
 
-**As a potential customer visiting the website I want to learn more about the photographer**. 
+ ### **As a potential customer visiting the website I want to learn more about the photographer**. 
 
 -	About-Me page contains a information about the photographer.
 
 
-**As a potential customer visiting the website I want to be able to easily view the photographers social media channels**. 
+### **As a potential customer visiting the website I want to be able to easily view the photographers social media channels**. 
 
 ![supporting screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/social-media.jpg)
 
 -	Social media channels are linked via recognisable visual icons in the footer
 
 
-**As a potential customer visiting the website I want to be able to easily contact the photographer**. 
+### **As a potential customer visiting the website I want to be able to easily contact the photographer**. 
 
 ![supporting screenshot](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/contact-me.jpg)
 
