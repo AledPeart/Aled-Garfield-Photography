@@ -529,7 +529,7 @@ At the time of submission the results are showing no errors (see screenshots bel
 ![portfolio.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-portfolio.png)  
 ![about.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-about.png)  
 ![contact.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-contact.png)  
-![style.css](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-css.png)
+![style.css](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/w3-validation-css.png)   
 ![404.html](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/404-validation.jpg)
 
 
