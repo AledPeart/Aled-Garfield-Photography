@@ -31,7 +31,7 @@ body {
     padding-top: 40px;
 }
 
-/* --------------header ---------------- */
+/* --------------Header ---------------- */
 
 .nav-link {
     font-family: 'Roboto', sans-serif;
@@ -132,7 +132,7 @@ body {
     }
 }
 
-.hello {
+.intro-paragraph-hello {
     font-size: 25px;
     line-height: normal;
 }
@@ -171,17 +171,14 @@ body {
 /* --------------Home Page - About Me Section---------------- */
 
 .hp-about-image {
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
     padding: 50px;
-
 }
 
 .hp-about-text {
-    /* max-width: 80%; */
     line-height: 1.7;
     padding: 5px;
 }
@@ -424,7 +421,6 @@ textarea {
 .img-my-family {
     max-width: 90%;
     padding: 30px;
-
 }
 
 .contact-me-button {
