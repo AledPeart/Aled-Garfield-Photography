@@ -51,7 +51,7 @@ I have tested my site to ensure that it achieves the intended aims of the owner 
 
  ### **As a potential customer visiting the website I want to learn more about the photographer**. 
 
--	About-Me page contains a information about the photographer.
+-	About-Me page contains information about the photographer.
 
 
 ### **As a potential customer visiting the website I want to be able to easily view the photographers social media channels**. 
@@ -566,7 +566,7 @@ The above issue was being caused by the word 'photography' which at the given fo
 
 3. Horizontal page scroll and Footer margin issues. 
 ![bug screenshot 3](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug3.jpg)
-I was getting a lot of horizontal movement on my site, particularly at smaller screen sizes. The contents would jump left and right, and was clearly not right. On a separate but seemingly linked issue, my footer was displaying a right hand margin which should not have been there I spend a lot of time investigating this issue on DevTools, but as much as i tried I could not isolate what was causing it. I spoke to my mentor, who confirmed that there was nothing apparent or obvious causing the issue. In the end I found somebody else with a very similar issue on a post in [Stack Overflow](https://stackoverflow.com/questions/23768152/using-container-fluid-within-bootstrap-cause-horizontal-scrollbar) There were a number of suggestions, but one which worked on my site was suggested by @Viktor L which was to set the left and right margins for all rows to 0:
+I was getting a lot of horizontal movement on my site, particularly at smaller screen sizes. The contents would jump left and right, and was clearly not right. On a separate but seemingly linked issue, my footer was displaying a right hand margin which should not have been there. I spent a lot of time investigating this issue on DevTools, but as much as I tried I could not isolate what was causing it. I spoke to my mentor, who confirmed that there was nothing apparent or obvious causing the issue. In the end I found somebody else with a very similar issue on a post in [Stack Overflow](https://stackoverflow.com/questions/23768152/using-container-fluid-within-bootstrap-cause-horizontal-scrollbar) There were a number of suggestions, but one which worked on my site was suggested by @Viktor L which was to set the left and right margins for all rows to 0:
 
 ```css
 .row {
@@ -585,7 +585,8 @@ portfolio-image-div {
 ```
 According to users on that thread, this is a common bug whereby Safari will stretch the image to it's full height rather than to the confines of the parent container.
 
-5. Footer text being pushed into the margin. At medium screen resolutions the 'copyright' footer text was being pushed into the bottom left of the screen, causing some of it to be lost.
+5. Footer text being pushed into the margin. 
+At medium screen resolutions the 'copyright' footer text was being pushed into the bottom left of the screen, causing some of it to be lost.
 ![bug screenshot 5](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug5.jpg)
 I was able to resolve this issue by writing the following media query:
 ```
