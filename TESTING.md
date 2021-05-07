@@ -500,7 +500,7 @@ __Safari__ – No issues found
 
 ### Laptop
 
-__Firefox__ – No issues found 
+__Firefox__ – No issues found    
 __Safari__ – 3 portfolio images on the homepage appeared vertically stretched
 
 ### Tablet 
@@ -551,8 +551,8 @@ Following these changes I re-ran the Lighthouse tests and the improved scores ca
 
 The majority of the errors and bugs I came across are noted below and were addressed during the development phase. The main issue I discovered as a result of my testing was that some of the images on the home page were being stretched out (see no 4. below)
 
-1. Content overflowing the parent container on the homepage intro section.
-![bug screenshot 1](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug1.jpg)
+__1. Content overflowing the parent container on the homepage intro section.__   
+![bug screenshot 1](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug1.jpg)   
 The above issue was being caused by the word 'photography' which at the given font size was too wide to fit the parent container. I was advised by my mentor to either reduce the font size or to write a media query to correct the issue. A large font size was integral to the design, so on larger screens this was maintained, and for smaller screens I wrote the following media query to reduce the font size when the screen falls below 400px.
 
  ```css
@@ -562,10 +562,10 @@ The above issue was being caused by the word 'photography' which at the given fo
     }
 } 
 ```
-2. Gallery images not displaying properly on the portfolio page. The aim on this page was to achieve a clean, tiled gallery, with the images nicely aligned and the margins consistent, to give the user a pleasing viewing experience.  I could not get the images to align properly and the margins were not equally spaced, after some time trying to figure this out I realised that the solution here was to re-size the images (portrait and landscape) in Photoshop to the exact same widths. This gave me the result I was aiming for.
+__2. Gallery images not displaying properly on the portfolio page.__ The aim on this page was to achieve a clean, tiled gallery, with the images nicely aligned and the margins consistent, to give the user a pleasing viewing experience.  I could not get the images to align properly and the margins were not equally spaced, after some time trying to figure this out I realised that the solution here was to re-size the images (portrait and landscape) in Photoshop to the exact same widths. This gave me the result I was aiming for.
 
-3. Horizontal page scroll and Footer margin issues. 
-![bug screenshot 3](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug3.jpg)
+__3. Horizontal page scroll and Footer margin issues.__    
+![bug screenshot 3](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug3.jpg)    
 I was getting a lot of horizontal movement on my site, particularly at smaller screen sizes. The contents would jump left and right, and was clearly not right. On a separate but seemingly linked issue, my footer was displaying a right hand margin which should not have been there. I spent a lot of time investigating this issue on DevTools, but as much as I tried I could not isolate what was causing it. I spoke to my mentor, who confirmed that there was nothing apparent or obvious causing the issue. In the end I found somebody else with a very similar issue on a post in [Stack Overflow](https://stackoverflow.com/questions/23768152/using-container-fluid-within-bootstrap-cause-horizontal-scrollbar) There were a number of suggestions, but one which worked on my site was suggested by @Viktor L which was to set the left and right margins for all rows to 0:
 
 ```css
@@ -574,8 +574,8 @@ I was getting a lot of horizontal movement on my site, particularly at smaller s
   margin-right: 0;
 }
 ```
-4. Images stretching horizontally on iphone/ipad.
-![bug screenshot 4](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug4.jpg)
+__4. Images stretching horizontally on iphone/ipad.__   
+![bug screenshot 4](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug4.jpg)   
 When my site was viewed in safari on an ipad and an iphone, the images in the portfolio section of the homepage appeared to be stretching out vertically. When testing in Chrome DevTools and on physical devices using the Chrome browser the issue did not appear, and the images scaled to fit the screen appropriately. I tried to fix the issue using Bootstrap's 'image-fluid' class. I was unable to resolve this by myself, but after some investigating I found a solution on [Stack Overflow](https://stackoverflow.com/questions/57516373/image-stretching-in-flexbox-in-safari). Credit to @Michael_B for the following snippet which addressed the issue:
 
 ```
@@ -585,9 +585,11 @@ portfolio-image-div {
 ```
 According to users on that thread, this is a common bug whereby Safari will stretch the image to it's full height rather than to the confines of the parent container.
 
-5. Footer text being pushed into the margin. 
+__5. Footer text being pushed into the margin.__ 
 At medium screen resolutions the 'copyright' footer text was being pushed into the bottom left of the screen, causing some of it to be lost.
-![bug screenshot 5](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug5.jpg)
+
+![bug screenshot 5](https://github.com/AledPeart/MS1-Aled-Garfield-Photography/blob/master/assets/images/bug5.jpg)   
+
 I was able to resolve this issue by writing the following media query:
 ```
 @media screen and (min-width: 768px) {
